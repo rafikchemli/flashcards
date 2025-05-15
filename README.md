@@ -2,7 +2,7 @@
 
 A modern, interactive flashcard application designed to help Pilates instructors study and memorize exercises for certification exams. Built with Next.js and React.
 
-[Pilates Flashcards App](https://flash-pilates.netlify.app/)
+🧘 [Pilates Flashcards App](https://flash-pilates.netlify.app/)
 
 ## Features
 
