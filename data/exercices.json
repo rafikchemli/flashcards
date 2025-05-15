@@ -1,0 +1,275 @@
+[
+    {
+      "id": 1,
+      "title_en": "The Hundred",
+      "description_en": "Lie on your back with your legs in tabletop position. Lift your head, neck, and shoulders off the mat. Pump your arms up and down while breathing in for 5 counts and out for 5 counts, for a total of 10 breaths (100 arm pumps).",
+      "title_fr": "Le Hundred",
+      "description_fr": "Allongez-vous sur le dos avec vos jambes en position de table. Soulevez votre tête, votre cou et vos épaules du tapis. Pompez vos bras de haut en bas tout en respirant pendant 5 temps et en expirant pendant 5 temps, pour un total de 10 respirations (100 pompes de bras).",
+      "hidden": false
+    },
+    {
+      "id": 2,
+      "title_en": "Roll Up",
+      "description_en": "Lie on your back with your arms extended overhead. Inhale to bring your arms up, then exhale as you roll up one vertebra at a time until you're sitting up with your arms reaching toward your toes. Inhale, then exhale as you roll back down.",
+      "title_fr": "Roll Up",
+      "description_fr": "Allongez-vous sur le dos avec vos bras étendus au-dessus de votre tête. Inspirez pour lever vos bras, puis expirez en vous enroulant vertèbre par vertèbre jusqu'à ce que vous soyez assis avec vos bras tendus vers vos orteils. Inspirez, puis expirez en vous déroulant vers le bas.",
+      "hidden": false
+    },
+    {
+      "id": 3,
+      "title_en": "Roll Over",
+      "description_en": "Lie on your back with your arms by your sides, palms down. Lift your legs straight up, then roll them over your head until your toes touch the floor behind you. Roll back down, lowering your legs with control.",
+      "title_fr": "Roll Over",
+      "description_fr": "Allongez-vous sur le dos avec vos bras le long du corps, paumes vers le bas. Levez vos jambes droites, puis roulez-les par-dessus votre tête jusqu'à ce que vos orteils touchent le sol derrière vous. Déroulez-vous, en abaissant vos jambes avec contrôle.",
+      "hidden": false
+    },
+    {
+      "id": 4,
+      "title_en": "Single Leg Circles",
+      "description_en": "Lie on your back with one leg extended on the floor and the other pointing toward the ceiling. Circle the raised leg in one direction 5 times, then reverse the direction for 5 more circles. Switch legs and repeat.",
+      "title_fr": "Cercles à Une Jambe",
+      "description_fr": "Allongez-vous sur le dos avec une jambe tendue sur le sol et l'autre pointant vers le plafond. Faites tourner la jambe levée dans une direction 5 fois, puis inversez la direction pour 5 cercles supplémentaires. Changez de jambe et répétez.",
+      "hidden": false
+    },
+    {
+      "id": 5,
+      "title_en": "Rolling Like a Ball",
+      "description_en": "Sit with your knees bent and feet lifted off the floor. Hold your ankles and balance on your sit bones. Roll back to your shoulder blades, then return to the starting position without letting your feet touch the floor.",
+      "title_fr": "Rouler Comme une Balle",
+      "description_fr": "Asseyez-vous avec vos genoux pliés et vos pieds soulevés du sol. Tenez vos chevilles et équilibrez-vous sur vos ischions. Roulez en arrière jusqu'à vos omoplates, puis revenez à la position de départ sans laisser vos pieds toucher le sol.",
+      "hidden": false
+    },
+    {
+      "id": 6,
+      "title_en": "Single Leg Stretch",
+      "description_en": "Lie on your back with your head and shoulders lifted. Bring both knees to your chest, then extend one leg out while pulling the other knee closer to your chest. Switch legs in a fluid motion, maintaining core stability throughout.",
+      "title_fr": "Étirement à Une Jambe",
+      "description_fr": "Allongez-vous sur le dos avec votre tête et vos épaules soulevées. Amenez les deux genoux à votre poitrine, puis étendez une jambe tout en tirant l'autre genou plus près de votre poitrine. Changez de jambe dans un mouvement fluide, en maintenant la stabilité du centre tout au long de l'exercice.",
+      "hidden": false
+    },
+    {
+      "id": 7,
+      "title_en": "Double Leg Stretch",
+      "description_en": "Start by curling your head and shoulders off the mat with both knees into your chest. Place hands on shins. Inhale and extend arms and legs in opposite directions. Circle arms around as you exhale, drawing knees back to chest.",
+      "title_fr": "Étirement à Deux Jambes",
+      "description_fr": "Commencez par enrouler votre tête et vos épaules du tapis avec les deux genoux contre votre poitrine. Placez les mains sur les tibias. Inspirez et étendez les bras et les jambes dans des directions opposées. Faites circuler les bras autour en expirant, ramenant les genoux à la poitrine.",
+      "hidden": false
+    },
+    {
+      "id": 8,
+      "title_en": "Spine Stretch Forward",
+      "description_en": "Sit tall with legs extended straight and shoulder-width apart, feet flexed. Reach arms forward at shoulder height. Exhale and roll forward through your spine, reaching toward your toes. Inhale and roll back up to sitting tall.",
+      "title_fr": "Étirement Avant de la Colonne",
+      "description_fr": "Asseyez-vous droit avec les jambes tendues et écartées à la largeur des épaules, pieds fléchis. Tendez les bras vers l'avant à la hauteur des épaules. Expirez et roulez vers l'avant à travers votre colonne vertébrale, en vous étirant vers vos orteils. Inspirez et roulez pour revenir à la position assise droite.",
+      "hidden": false
+    },
+    {
+      "id": 9,
+      "title_en": "Open Leg Rocker",
+      "description_en": "Sit balancing on your sit bones with legs open in a V-position. Hold the outsides of your ankles. Roll back to your shoulder blades and then forward again, maintaining the V-position of your legs throughout the movement.",
+      "title_fr": "Balancier Jambes Ouvertes",
+      "description_fr": "Asseyez-vous en équilibre sur vos ischions avec les jambes ouvertes en position V. Tenez l'extérieur de vos chevilles. Roulez en arrière jusqu'à vos omoplates puis à nouveau vers l'avant, en maintenant la position en V de vos jambes tout au long du mouvement.",
+      "hidden": false
+    },
+    {
+      "id": 10,
+      "title_en": "Corkscrew",
+      "description_en": "Lie on your back with legs together and extended toward the ceiling. Circle both legs together in one direction, then reverse. Keep your upper body stable and your lower back pressed into the mat throughout the movement.",
+      "title_fr": "Tire-Bouchon",
+      "description_fr": "Allongez-vous sur le dos avec les jambes jointes et tendues vers le plafond. Faites tourner les deux jambes ensemble dans une direction, puis inversez. Gardez votre haut du corps stable et votre bas du dos pressé contre le tapis tout au long du mouvement.",
+      "hidden": false
+    },
+    {
+      "id": 11,
+      "title_en": "Saw",
+      "description_en": "Sit tall with legs extended wider than hip-width, feet flexed. Extend arms to sides at shoulder height. Rotate torso to the right, then reach left hand to right foot as if 'sawing' off your little toe. Return to center and repeat on the other side.",
+      "title_fr": "La Scie",
+      "description_fr": "Asseyez-vous droit avec les jambes étendues plus larges que la largeur des hanches, pieds fléchis. Étendez les bras sur les côtés à la hauteur des épaules. Tournez le torse vers la droite, puis atteignez la main gauche vers le pied droit comme si vous 'sciiez' votre petit orteil. Revenez au centre et répétez de l'autre côté.",
+      "hidden": false
+    },
+    {
+      "id": 12,
+      "title_en": "Swan",
+      "description_en": "Lie on your stomach with legs straight and slightly apart. Place hands under shoulders. Press into hands to lift upper body while keeping hips on the mat. Lengthen through the spine as you extend upward.",
+      "title_fr": "Le Cygne",
+      "description_fr": "Allongez-vous sur le ventre avec les jambes droites et légèrement écartées. Placez les mains sous les épaules. Appuyez sur les mains pour soulever le haut du corps tout en gardant les hanches sur le tapis. Allongez la colonne vertébrale en vous étendant vers le haut.",
+      "hidden": false
+    },
+    {
+      "id": 13,
+      "title_en": "One Leg Kick",
+      "description_en": "Lie on your stomach, propped up on your forearms with elbows under shoulders. Kick one heel toward your buttocks twice, then switch legs. Keep your abdominals engaged and spine long throughout.",
+      "title_fr": "Coup de Pied à Une Jambe",
+      "description_fr": "Allongez-vous sur le ventre, soutenu sur vos avant-bras avec les coudes sous les épaules. Donnez deux coups de talon vers vos fesses, puis changez de jambe. Gardez vos abdominaux engagés et votre colonne vertébrale allongée tout au long de l'exercice.",
+      "hidden": false
+    },
+    {
+      "id": 14,
+      "title_en": "Double Leg Kick",
+      "description_en": "Lie on your stomach with head turned to one side and hands clasped behind your back. Kick both heels toward your buttocks three times, then extend legs as you lift chest and reach arms toward feet. Switch head position and repeat.",
+      "title_fr": "Coup de Pied à Deux Jambes",
+      "description_fr": "Allongez-vous sur le ventre avec la tête tournée d'un côté et les mains jointes derrière le dos. Donnez trois coups de talon vers vos fesses, puis étendez les jambes en soulevant la poitrine et en tendant les bras vers les pieds. Changez la position de la tête et répétez.",
+      "hidden": false
+    },
+    {
+      "id": 15,
+      "title_en": "Neck Pull",
+      "description_en": "Lie on your back with hands behind your head. Curl up to sitting position, articulating through the spine. Extend forward over legs, then roll back down with control, one vertebra at a time.",
+      "title_fr": "Traction du Cou",
+      "description_fr": "Allongez-vous sur le dos avec les mains derrière la tête. Enroulez-vous jusqu'à la position assise, en articulant à travers la colonne vertébrale. Étendez-vous vers l'avant sur les jambes, puis roulez en arrière avec contrôle, une vertèbre à la fois.",
+      "hidden": false
+    },
+    {
+      "id": 16,
+      "title_en": "Scissors",
+      "description_en": "Lie on your back and lift hips off the mat, supporting your lower back with hands. Extend one leg toward ceiling and the other forward. Pulse legs twice, then switch positions in a scissor-like motion.",
+      "title_fr": "Les Ciseaux",
+      "description_fr": "Allongez-vous sur le dos et soulevez les hanches du tapis, en soutenant le bas du dos avec les mains. Étendez une jambe vers le plafond et l'autre vers l'avant. Pulsez les jambes deux fois, puis changez de position dans un mouvement de ciseau.",
+      "hidden": false
+    },
+    {
+      "id": 17,
+      "title_en": "Bicycle",
+      "description_en": "From the Scissors position, continue by cycling legs in a bicycle motion. Maintain a stable pelvis and keep your hands supporting your lower back. Perform five cycles in each direction.",
+      "title_fr": "La Bicyclette",
+      "description_fr": "À partir de la position des Ciseaux, continuez en pédalant les jambes dans un mouvement de bicyclette. Maintenez un bassin stable et gardez vos mains soutenant le bas du dos. Effectuez cinq cycles dans chaque direction.",
+      "hidden": false
+    },
+    {
+      "id": 18,
+      "title_en": "Shoulder Bridge",
+      "description_en": "Lie on your back with knees bent, feet hip-width apart. Lift hips toward ceiling, creating a straight line from shoulders to knees. Hold, then articulate spine back down to the mat.",
+      "title_fr": "Pont d'Épaules",
+      "description_fr": "Allongez-vous sur le dos avec les genoux pliés, les pieds écartés à la largeur des hanches. Soulevez les hanches vers le plafond, créant une ligne droite des épaules aux genoux. Maintenez, puis articulez la colonne vertébrale en redescendant sur le tapis.",
+      "hidden": false
+    },
+    {
+      "id": 19,
+      "title_en": "Jack Knife",
+      "description_en": "Lie on your back, arms by sides. Lift legs overhead and roll hips up toward ceiling, supporting lower back with hands. Extend legs toward ceiling, then lower with control back to starting position.",
+      "title_fr": "Couteau de Poche",
+      "description_fr": "Allongez-vous sur le dos, les bras sur les côtés. Soulevez les jambes au-dessus de la tête et roulez les hanches vers le plafond, en soutenant le bas du dos avec les mains. Étendez les jambes vers le plafond, puis abaissez avec contrôle pour revenir à la position de départ.",
+      "hidden": false
+    },
+    {
+      "id": 20,
+      "title_en": "Side Kick",
+      "description_en": "Lie on your side with body in a straight line. Prop head on hand and place other hand on mat for support. Lift top leg and kick forward twice, then sweep leg back. Repeat for several repetitions before switching sides.",
+      "title_fr": "Coup de Pied Latéral",
+      "description_fr": "Allongez-vous sur le côté avec le corps en ligne droite. Appuyez la tête sur la main et placez l'autre main sur le tapis pour vous soutenir. Soulevez la jambe du dessus et donnez deux coups de pied vers l'avant, puis balayez la jambe vers l'arrière. Répétez plusieurs fois avant de changer de côté.",
+      "hidden": false
+    },
+    {
+      "id": 21,
+      "title_en": "Teaser",
+      "description_en": "Lie on your back with legs extended at a 45-degree angle. Reach arms overhead. Roll up to balance on sit bones with legs and torso forming a V-shape. Hold, then roll back down with control.",
+      "title_fr": "Le Teaser",
+      "description_fr": "Allongez-vous sur le dos avec les jambes étendues à un angle de 45 degrés. Tendez les bras au-dessus de la tête. Roulez pour vous équilibrer sur les ischions avec les jambes et le torse formant une forme en V. Maintenez, puis roulez en arrière avec contrôle.",
+      "hidden": false
+    },
+    {
+      "id": 22,
+      "title_en": "Hip Twist",
+      "description_en": "Sit with legs extended together, hands behind you on mat. Lift legs to Teaser position. Circle both legs to one side, down, around, and back to center. Reverse direction. Keep torso stable throughout.",
+      "title_fr": "Torsion de Hanche",
+      "description_fr": "Asseyez-vous avec les jambes tendues ensemble, les mains derrière vous sur le tapis. Soulevez les jambes en position Teaser. Faites tourner les deux jambes d'un côté, vers le bas, autour, et retour au centre. Inversez la direction. Gardez le torse stable tout au long de l'exercice.",
+      "hidden": false
+    },
+    {
+      "id": 23,
+      "title_en": "Swimming",
+      "description_en": "Lie on your stomach with arms extended overhead and legs straight. Lift opposite arm and leg, then alternate in a swimming motion. Maintain length in your spine and keep your neck in line with your spine.",
+      "title_fr": "La Natation",
+      "description_fr": "Allongez-vous sur le ventre avec les bras étendus au-dessus de la tête et les jambes droites. Soulevez le bras et la jambe opposés, puis alternez dans un mouvement de natation. Maintenez la longueur dans votre colonne vertébrale et gardez votre cou aligné avec votre colonne vertébrale.",
+      "hidden": false
+    },
+    {
+      "id": 24,
+      "title_en": "Leg Pull - Front",
+      "description_en": "Start in plank position with shoulders over wrists. Lift one leg without changing hip height, then lower and repeat with the other leg. Keep your core engaged and body in a straight line.",
+      "title_fr": "Traction de Jambe - Avant",
+      "description_fr": "Commencez en position de planche avec les épaules au-dessus des poignets. Soulevez une jambe sans changer la hauteur de la hanche, puis abaissez et répétez avec l'autre jambe. Gardez votre centre engagé et votre corps en ligne droite.",
+      "hidden": false
+    },
+    {
+      "id": 25,
+      "title_en": "Leg Pull - Back",
+      "description_en": "Sit with legs extended, hands behind you with fingers pointing toward feet. Lift hips to form a straight line from shoulders to heels. Lift one leg, then lower and repeat with the other leg.",
+      "title_fr": "Traction de Jambe - Arrière",
+      "description_fr": "Asseyez-vous avec les jambes étendues, les mains derrière vous avec les doigts pointant vers les pieds. Soulevez les hanches pour former une ligne droite des épaules aux talons. Soulevez une jambe, puis abaissez et répétez avec l'autre jambe.",
+      "hidden": false
+    },
+    {
+      "id": 26,
+      "title_en": "Side Kick Kneeling",
+      "description_en": "Kneel on one knee with the other leg extended to the side. Place one hand on the floor and the other behind your head. Kick the extended leg forward and back while keeping the torso stable.",
+      "title_fr": "Coup de Pied Latéral à Genoux",
+      "description_fr": "Agenouillez-vous sur un genou avec l'autre jambe étendue sur le côté. Placez une main sur le sol et l'autre derrière votre tête. Donnez des coups de pied avec la jambe étendue vers l'avant et l'arrière tout en gardant le torse stable.",
+      "hidden": false
+    },
+    {
+      "id": 27,
+      "title_en": "Side Bend",
+      "description_en": "Start seated on one hip with legs bent to one side. Place bottom hand on mat and extend top arm overhead. Lift hips to create a side plank position. Lower and lift hips with control.",
+      "title_fr": "Flexion Latérale",
+      "description_fr": "Commencez assis sur une hanche avec les jambes pliées d'un côté. Placez la main du bas sur le tapis et étendez le bras du haut au-dessus de la tête. Soulevez les hanches pour créer une position de planche latérale. Abaissez et soulevez les hanches avec contrôle.",
+      "hidden": false
+    },
+    {
+      "id": 28,
+      "title_en": "Crab",
+      "description_en": "Sit cross-legged and hold the tops of your feet. Curl into a ball and roll forward onto your knees, then backward to balance on your shoulder blades. Switch the cross of your legs and repeat.",
+      "title_fr": "Le Crabe",
+      "description_fr": "Asseyez-vous jambes croisées et tenez le dessus de vos pieds. Enroulez-vous en boule et roulez vers l'avant sur vos genoux, puis vers l'arrière pour vous équilibrer sur vos omoplates. Changez le croisement de vos jambes et répétez.",
+      "hidden": false
+    },
+    {
+      "id": 29,
+      "title_en": "Rocking",
+      "description_en": "Lie on your stomach and bend knees, reaching back to hold your ankles. Lift chest and thighs off the mat to create a bow shape. Rock forward and backward on your abdomen.",
+      "title_fr": "Le Balancement",
+      "description_fr": "Allongez-vous sur le ventre et pliez les genoux, en tendant les bras vers l'arrière pour tenir vos chevilles. Soulevez la poitrine et les cuisses du tapis pour créer une forme d'arc. Balancez-vous d'avant en arrière sur votre abdomen.",
+      "hidden": false
+    },
+    {
+      "id": 30,
+      "title_en": "Control Balance",
+      "description_en": "Lie on your back with legs overhead. Hold one ankle with both hands and extend the other leg to the ceiling. Switch legs with control, maintaining balance throughout the transition.",
+      "title_fr": "Équilibre Contrôlé",
+      "description_fr": "Allongez-vous sur le dos avec les jambes au-dessus de la tête. Tenez une cheville avec les deux mains et étendez l'autre jambe vers le plafond. Changez de jambe avec contrôle, en maintenant l'équilibre tout au long de la transition.",
+      "hidden": false
+    },
+    {
+      "id": 31,
+      "title_en": "Push Up",
+      "description_en": "Stand at the back of your mat. Roll down to place hands on mat. Walk hands out to plank position. Perform three to five tricep push-ups, then walk hands back and roll up to standing.",
+      "title_fr": "Pompes",
+      "description_fr": "Tenez-vous debout à l'arrière de votre tapis. Roulez vers le bas pour placer les mains sur le tapis. Marchez avec les mains jusqu'à la position de planche. Effectuez trois à cinq pompes triceps, puis ramenez les mains et roulez pour vous relever.",
+      "hidden": false
+    },
+    {
+      "id": 32,
+      "title_en": "Seal",
+      "description_en": "Sit with knees bent and grasp ankles from the outside. Balance on sit bones and roll back to shoulder blades, then forward again. Clap heels together three times at the beginning and end of each roll.",
+      "title_fr": "Le Phoque",
+      "description_fr": "Asseyez-vous avec les genoux pliés et saisissez les chevilles de l'extérieur. Équilibrez-vous sur les ischions et roulez en arrière jusqu'aux omoplates, puis à nouveau vers l'avant. Tapez les talons ensemble trois fois au début et à la fin de chaque roulement.",
+      "hidden": false
+    },
+    {
+      "id": 33,
+      "title_en": "Boomerang",
+      "description_en": "Sit with legs extended, ankles crossed. Roll back with legs overhead, then roll up into a Teaser position. Circle arms forward and around, then switch ankle cross and repeat.",
+      "title_fr": "Le Boomerang",
+      "description_fr": "Asseyez-vous avec les jambes tendues, les chevilles croisées. Roulez en arrière avec les jambes au-dessus de la tête, puis roulez en position Teaser. Faites tourner les bras vers l'avant et autour, puis changez le croisement des chevilles et répétez.",
+      "hidden": false
+    },
+    {
+      "id": 34,
+      "title_en": "Push-Up with One Leg Pull",
+      "description_en": "Begin in push-up position. Perform a push-up, then lift one leg as you press up. Lower leg as you lower into the next push-up. Alternate legs with each repetition.",
+      "title_fr": "Pompe avec Traction d'Une Jambe",
+      "description_fr": "Commencez en position de pompe. Effectuez une pompe, puis soulevez une jambe en vous poussant vers le haut. Abaissez la jambe en vous abaissant dans la pompe suivante. Alternez les jambes à chaque répétition.",
+      "hidden": false
+    }
+]
+  
