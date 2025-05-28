@@ -167,7 +167,7 @@ export default function FlashcardsPage() {
         <div className="flex gap-2">
           <Button variant="outline" size="sm" onClick={resetSession}>
             <RefreshCw className="mr-2 h-4 w-4" />
-            Reset
+            Reshuffle
           </Button>
           <Link href="/manage">
             <Button variant="outline" size="sm">
