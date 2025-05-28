@@ -21,6 +21,8 @@ export default function ManagePage() {
   const [editedExercise, setEditedExercise] = useState<Exercise | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState("")
+  const [blockFilter, setBlockFilter] = useState<string>("")
+  const [levelFilter, setLevelFilter] = useState<string>("")
   const { language } = useLanguage()
 
   useEffect(() => {
@@ -91,9 +93,16 @@ export default function ManagePage() {
     }
   }
 
+  // Récupérer toutes les valeurs uniques de block et level pour les filtres
+  const allBlocks = Array.from(new Set(exercises.map((ex) => ex.block))).sort()
+  const allLevels = Array.from(new Set(exercises.map((ex) => ex.level))).sort()
+
   const filteredExercises = exercises.filter((ex) => {
     const title = language === "en" ? ex.title_en : ex.title_fr
-    return title.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchesSearch = title.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchesBlock = blockFilter ? ex.block === blockFilter : true
+    const matchesLevel = levelFilter ? ex.level === levelFilter : true
+    return matchesSearch && matchesBlock && matchesLevel
   })
 
   if (isLoading) {
@@ -130,6 +139,42 @@ export default function ManagePage() {
         <Button variant="outline" size="sm" onClick={resetToDefault}>
           Reset All
         </Button>
+      </div>
+
+      {/* Filtres block et level */}
+      <div className="flex w-full max-w-4xl mb-4 gap-4">
+        <div className="flex-1">
+          <select
+            className="w-full border rounded px-3 py-2 text-sm bg-white"
+            value={blockFilter}
+            onChange={(e) => setBlockFilter(e.target.value)}
+          >
+            <option value="">All Blocks</option>
+            {allBlocks.map((block) => (
+              <option key={block} value={block}>{block}</option>
+            ))}
+          </select>
+        </div>
+        <div className="flex-1">
+          <select
+            className="w-full border rounded px-3 py-2 text-sm bg-white"
+            value={levelFilter}
+            onChange={(e) => setLevelFilter(e.target.value)}
+          >
+            <option value="">All Levels</option>
+            {allLevels.map((level) => (
+              <option key={level} value={level}>{level}</option>
+            ))}
+          </select>
+        </div>
+        {(blockFilter || levelFilter) && (
+          <button
+            className="ml-2 text-xs underline text-gray-500"
+            onClick={() => { setBlockFilter(""); setLevelFilter(""); }}
+          >
+            Reset filters
+          </button>
+        )}
       </div>
 
       <div className="flex w-full max-w-4xl gap-6">

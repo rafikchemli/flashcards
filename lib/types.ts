@@ -4,7 +4,22 @@ export interface Exercise {
   description_en: string
   title_fr: string
   description_fr: string
+  block: string
+  level: string
   hidden: boolean
 }
 
 export type Language = "en" | "fr"
+
+// Optionnel : pour usage dans les filtres UI
+export type Block =
+  | "Foundation"
+  | "Abdominal Work"
+  | "Spinal Articulation"
+  | "Lateal/Flexion Rotation"
+  | "Back Extension"
+  | "Bridging/Full Body Intergration"
+  | "Leg Work"
+  | "Arm Work"
+
+export type Level = "Fundamental" | "Intermediate" | "Advanced"

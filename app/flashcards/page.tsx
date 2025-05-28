@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import type { Exercise } from "@/lib/types"
 import Flashcard from "@/components/flashcard"
@@ -10,27 +10,40 @@ import { Progress } from "@/components/ui/progress"
 import { ChevronLeft, ChevronRight, Home, Settings, RefreshCw } from "lucide-react"
 import { shuffleArray, getLocalExercises, saveLocalExercises } from "@/lib/utils"
 import exercisesData from "@/data/exercices.json"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from "@/components/ui/label"
 
 export default function FlashcardsPage() {
   const [exercises, setExercises] = useState<Exercise[]>([])
+  const [filteredExercises, setFilteredExercises] = useState<Exercise[]>([])
   const [viewedIndices, setViewedIndices] = useState<Set<number>>(new Set())
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
   const [progress, setProgress] = useState(0)
+  const [selectedBlocks, setSelectedBlocks] = useState<string[]>([])
+  const [selectedLevels, setSelectedLevels] = useState<string[]>([])
+  const [showBlockFilters, setShowBlockFilters] = useState(false)
+  const [showLevelFilters, setShowLevelFilters] = useState(false)
+  const blockFilterRef = useRef<HTMLDivElement>(null)
+  const levelFilterRef = useRef<HTMLDivElement>(null)
 
   const initializeSession = () => {
     // Try to get exercises from localStorage first
     const localExercises = getLocalExercises()
 
+    let allExercises: Exercise[] = [];
     if (localExercises.length > 0) {
-      // Filter out hidden exercises and shuffle
-      const visibleExercises = localExercises.filter((ex) => !ex.hidden)
-      setExercises(shuffleArray(visibleExercises))
+      // Filter out hidden exercises
+      allExercises = localExercises.filter((ex) => !ex.hidden)
+      setExercises(shuffleArray(allExercises))
+      setFilteredExercises(shuffleArray(allExercises))
     } else {
       // If no local exercises, use the default data
       saveLocalExercises(exercisesData as Exercise[])
-      const visibleExercises = (exercisesData as Exercise[]).filter((ex) => !ex.hidden)
-      setExercises(shuffleArray(visibleExercises))
+      allExercises = (exercisesData as Exercise[]).filter((ex) => !ex.hidden)
+      setExercises(shuffleArray(allExercises))
+      setFilteredExercises(shuffleArray(allExercises))
     }
 
     // Reset viewed indices and current index
@@ -45,11 +58,41 @@ export default function FlashcardsPage() {
   }, [])
 
   useEffect(() => {
-    if (exercises.length > 0) {
-      const progressPercentage = (viewedIndices.size / exercises.length) * 100
+    if (filteredExercises.length > 0) {
+      const progressPercentage = ((currentIndex + 1) / filteredExercises.length) * 100
       setProgress(progressPercentage)
+    } else {
+      setProgress(0)
     }
-  }, [viewedIndices, exercises.length])
+  }, [currentIndex, filteredExercises.length])
+
+  useEffect(() => {
+    // Apply filters based on selected blocks and levels
+    const filtered = exercises.filter((ex) => {
+      const matchesBlock = selectedBlocks.length > 0 ? selectedBlocks.includes(ex.block) : true
+      const matchesLevel = selectedLevels.length > 0 ? selectedLevels.includes(ex.level) : true
+      return matchesBlock && matchesLevel
+    })
+    setFilteredExercises(filtered)
+    setCurrentIndex(0)
+    setViewedIndices(new Set([0]))
+  }, [selectedBlocks, selectedLevels, exercises])
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (blockFilterRef.current && !blockFilterRef.current.contains(event.target as Node)) {
+        setShowBlockFilters(false)
+      }
+      if (levelFilterRef.current && !levelFilterRef.current.contains(event.target as Node)) {
+        setShowLevelFilters(false)
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [])
 
   const resetSession = () => {
     setIsLoading(true)
@@ -61,32 +104,25 @@ export default function FlashcardsPage() {
   const goToPrevious = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1)
+      // Ajouter l'index actuel à viewedIndices si ce n'est pas déjà fait
+      const newViewedIndices = new Set(viewedIndices)
+      newViewedIndices.add(currentIndex - 1)
+      setViewedIndices(newViewedIndices)
     }
   }
 
   const goToNext = () => {
-    // If we've seen all cards, just go to the next one in sequence
-    if (viewedIndices.size >= exercises.length) {
-      setCurrentIndex((prev) => (prev < exercises.length - 1 ? prev + 1 : prev))
-      return
-    }
+    if (filteredExercises.length === 0) return;
 
-    // Find the next unviewed card
-    const unviewedIndices = Array.from({ length: exercises.length }, (_, i) => i).filter((i) => !viewedIndices.has(i))
-
-    if (unviewedIndices.length > 0) {
-      // Pick a random unviewed card
-      const randomIndex = Math.floor(Math.random() * unviewedIndices.length)
-      const nextIndex = unviewedIndices[randomIndex]
-
-      // Mark it as viewed and set as current
+    if (currentIndex < filteredExercises.length - 1) {
+      setCurrentIndex(currentIndex + 1)
+      // Ajouter l'index suivant à viewedIndices si ce n'est pas déjà fait
       const newViewedIndices = new Set(viewedIndices)
-      newViewedIndices.add(nextIndex)
+      newViewedIndices.add(currentIndex + 1)
       setViewedIndices(newViewedIndices)
-      setCurrentIndex(nextIndex)
     } else {
-      // If all cards have been viewed, just go to the next one in sequence
-      setCurrentIndex((prev) => (prev < exercises.length - 1 ? prev + 1 : prev))
+      // Si on est à la fin, revenir au début pour permettre une navigation circulaire
+      setCurrentIndex(0)
     }
   }
 
@@ -98,28 +134,9 @@ export default function FlashcardsPage() {
     )
   }
 
-  if (exercises.length === 0) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-4">
-        <h1 className="text-2xl font-bold mb-4">No exercises available</h1>
-        <p className="mb-8">All exercises are hidden or no exercises were found.</p>
-        <div className="flex gap-4">
-          <Link href="/">
-            <Button variant="outline">
-              <Home className="mr-2 h-4 w-4" />
-              Home
-            </Button>
-          </Link>
-          <Link href="/manage">
-            <Button>
-              <Settings className="mr-2 h-4 w-4" />
-              Manage Exercises
-            </Button>
-          </Link>
-        </div>
-      </div>
-    )
-  }
+  // Récupérer toutes les valeurs uniques de block et level pour les filtres
+  const allBlocks = Array.from(new Set(exercises.map((ex) => ex.block))).sort()
+  const allLevels = Array.from(new Set(exercises.map((ex) => ex.level))).sort()
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">
@@ -129,10 +146,10 @@ export default function FlashcardsPage() {
         <div className="flex justify-between items-center mb-2">
           <span className="text-sm font-medium">Progress: {Math.round(progress)}%</span>
           <span className="text-sm">
-            {viewedIndices.size} / {exercises.length} cards viewed
+            {viewedIndices.size} / {filteredExercises.length || exercises.length} cards viewed
           </span>
         </div>
-        <Progress value={progress} className="h-2" />
+        <Progress value={filteredExercises.length > 0 ? progress : 0} className="h-2" />
       </div>
 
       <div className="flex justify-between items-center w-full max-w-2xl mb-8 mt-4">
@@ -144,7 +161,7 @@ export default function FlashcardsPage() {
         </Link>
 
         <div className="text-sm">
-          Card {currentIndex + 1} / {exercises.length}
+          Card {filteredExercises.length > 0 ? currentIndex + 1 : 0} / {filteredExercises.length || exercises.length}
         </div>
 
         <div className="flex gap-2">
@@ -161,19 +178,103 @@ export default function FlashcardsPage() {
         </div>
       </div>
 
+      {/* Filtres block et level avec sélection multiple */}
+      <div className="flex w-full max-w-2xl mb-4 gap-4">
+        <div className="flex-1 relative" ref={blockFilterRef}>
+          <Button
+            variant="outline"
+            className="w-full justify-start"
+            onClick={() => setShowBlockFilters(!showBlockFilters)}
+          >
+            Filter by Block ({selectedBlocks.length})
+          </Button>
+          {showBlockFilters && (
+            <div className="absolute z-10 mt-1 w-full bg-white border rounded shadow-lg p-2 max-h-60 overflow-auto">
+              <ScrollArea className="h-full">
+                {allBlocks.map((block) => (
+                  <div key={block} className="flex items-center space-x-2 p-1">
+                    <Checkbox
+                      id={`block-${block}`}
+                      checked={selectedBlocks.includes(block)}
+                      onCheckedChange={(checked) => {
+                        setSelectedBlocks(
+                          checked
+                            ? [...selectedBlocks, block]
+                            : selectedBlocks.filter((b) => b !== block)
+                        )
+                      }}
+                    />
+                    <Label htmlFor={`block-${block}`} className="text-sm">
+                      {block}
+                    </Label>
+                  </div>
+                ))}
+              </ScrollArea>
+            </div>
+          )}
+        </div>
+        <div className="flex-1 relative" ref={levelFilterRef}>
+          <Button
+            variant="outline"
+            className="w-full justify-start"
+            onClick={() => setShowLevelFilters(!showLevelFilters)}
+          >
+            Filter by Level ({selectedLevels.length})
+          </Button>
+          {showLevelFilters && (
+            <div className="absolute z-10 mt-1 w-full bg-white border rounded shadow-lg p-2 max-h-60 overflow-auto">
+              <ScrollArea className="h-full">
+                {allLevels.map((level) => (
+                  <div key={level} className="flex items-center space-x-2 p-1">
+                    <Checkbox
+                      id={`level-${level}`}
+                      checked={selectedLevels.includes(level)}
+                      onCheckedChange={(checked) => {
+                        setSelectedLevels(
+                          checked
+                            ? [...selectedLevels, level]
+                            : selectedLevels.filter((l) => l !== level)
+                        )
+                      }}
+                    />
+                    <Label htmlFor={`level-${level}`} className="text-sm">
+                      {level}
+                    </Label>
+                  </div>
+                ))}
+              </ScrollArea>
+            </div>
+          )}
+        </div>
+        {(selectedBlocks.length > 0 || selectedLevels.length > 0) && (
+          <button
+            className="ml-2 text-xs underline text-gray-500"
+            onClick={() => { setSelectedBlocks([]); setSelectedLevels([]); }}
+          >
+            Reset filters
+          </button>
+        )}
+      </div>
+
       <div className="flex-1 flex items-center justify-center w-full">
-        <Flashcard exercise={exercises[currentIndex]} />
+        {filteredExercises.length > 0 ? (
+          <Flashcard exercise={filteredExercises[currentIndex]} />
+        ) : (
+          <div className="w-full max-w-md h-96 flex items-center justify-center border rounded-lg shadow-md bg-white">
+            <p className="text-lg text-gray-600 text-center">No exercises found with the selected filters. Please change filters.</p>
+          </div>
+        )}
       </div>
 
       <div className="flex justify-between w-full max-w-2xl mt-8 mb-12">
-        <Button onClick={goToPrevious} disabled={currentIndex === 0} className="w-24">
+        <Button onClick={goToPrevious} disabled={filteredExercises.length === 0 || currentIndex === 0} className="w-24">
           <ChevronLeft className="mr-2 h-4 w-4" />
           Prev
         </Button>
 
         <Button
           onClick={goToNext}
-          disabled={viewedIndices.size >= exercises.length && currentIndex === exercises.length - 1}
+          disabled={filteredExercises.length === 0 || currentIndex === filteredExercises.length - 1}
           className="w-24"
         >
           Next
