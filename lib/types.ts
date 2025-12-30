@@ -7,6 +7,7 @@ export interface Exercise {
   block: string
   level: string
   hidden: boolean
+  youtube_url?: string
 }
 
 export type Language = "en" | "fr"

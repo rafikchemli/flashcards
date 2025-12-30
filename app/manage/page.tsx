@@ -250,7 +250,16 @@ export default function ManagePage() {
                   <Textarea
                     value={editedExercise.description_en}
                     onChange={(e) => handleInputChange("description_en", e.target.value)}
-                    rows={6}
+                    rows={4}
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <h3 className="text-sm font-medium">YouTube URL (optional)</h3>
+                  <Input
+                    value={editedExercise.youtube_url || ""}
+                    onChange={(e) => handleInputChange("youtube_url", e.target.value)}
+                    placeholder="https://www.youtube.com/watch?v=..."
                   />
                 </div>
 
