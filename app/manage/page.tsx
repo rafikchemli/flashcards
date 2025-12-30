@@ -3,8 +3,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import type { Exercise } from "@/lib/types"
-import LanguageToggle from "@/components/language-toggle"
-import { useLanguage } from "@/components/language-provider"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -23,7 +21,6 @@ export default function ManagePage() {
   const [searchTerm, setSearchTerm] = useState("")
   const [blockFilter, setBlockFilter] = useState<string>("")
   const [levelFilter, setLevelFilter] = useState<string>("")
-  const { language } = useLanguage()
 
   useEffect(() => {
     // Try to get exercises from localStorage first
@@ -98,8 +95,7 @@ export default function ManagePage() {
   const allLevels = Array.from(new Set(exercises.map((ex) => ex.level))).sort()
 
   const filteredExercises = exercises.filter((ex) => {
-    const title = language === "en" ? ex.title_en : ex.title_fr
-    const matchesSearch = title.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchesSearch = ex.title_en.toLowerCase().includes(searchTerm.toLowerCase())
     const matchesBlock = blockFilter ? ex.block === blockFilter : true
     const matchesLevel = levelFilter ? ex.level === levelFilter : true
     return matchesSearch && matchesBlock && matchesLevel
@@ -124,8 +120,6 @@ export default function ManagePage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">
-      <LanguageToggle />
-
       <div className="flex justify-between items-center w-full max-w-4xl mb-8 mt-12">
         <Link href="/">
           <Button variant="outline" size="sm">
@@ -208,7 +202,7 @@ export default function ManagePage() {
                       className={`w-full justify-start text-left ${exercise.hidden ? "opacity-50" : ""}`}
                       onClick={() => setSelectedExerciseId(exercise.id)}
                     >
-                      {language === "en" ? exercise.title_en : exercise.title_fr}
+                      {exercise.title_en}
                     </Button>
                   ))}
                 </div>
@@ -226,7 +220,7 @@ export default function ManagePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">English Title</h3>
+                  <h3 className="text-sm font-medium">Title</h3>
                   <Input
                     value={editedExercise.title_en}
                     onChange={(e) => handleInputChange("title_en", e.target.value)}
@@ -234,28 +228,11 @@ export default function ManagePage() {
                 </div>
 
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">English Description</h3>
+                  <h3 className="text-sm font-medium">Description</h3>
                   <Textarea
                     value={editedExercise.description_en}
                     onChange={(e) => handleInputChange("description_en", e.target.value)}
-                    rows={6}
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <h3 className="text-sm font-medium">French Title</h3>
-                  <Input
-                    value={editedExercise.title_fr}
-                    onChange={(e) => handleInputChange("title_fr", e.target.value)}
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <h3 className="text-sm font-medium">French Description</h3>
-                  <Textarea
-                    value={editedExercise.description_fr}
-                    onChange={(e) => handleInputChange("description_fr", e.target.value)}
-                    rows={6}
+                    rows={10}
                   />
                 </div>
 
