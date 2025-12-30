@@ -3,12 +3,11 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import type { Exercise } from "@/lib/types"
-import LanguageToggle from "@/components/language-toggle"
-import { useLanguage } from "@/components/language-provider"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Switch } from "@/components/ui/switch"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Home, Save, Trash2, Search, X } from "lucide-react"
 import { getLocalExercises, saveLocalExercises } from "@/lib/utils"
@@ -23,7 +22,10 @@ export default function ManagePage() {
   const [searchTerm, setSearchTerm] = useState("")
   const [blockFilter, setBlockFilter] = useState<string>("")
   const [levelFilter, setLevelFilter] = useState<string>("")
-  const { language } = useLanguage()
+  const [showCustomBlock, setShowCustomBlock] = useState(false)
+  const [showCustomLevel, setShowCustomLevel] = useState(false)
+  const [customBlock, setCustomBlock] = useState("")
+  const [customLevel, setCustomLevel] = useState("")
 
   useEffect(() => {
     // Try to get exercises from localStorage first
@@ -63,10 +65,23 @@ export default function ManagePage() {
   const saveChanges = () => {
     if (!editedExercise) return
 
-    const updatedExercises = exercises.map((ex) => (ex.id === editedExercise.id ? editedExercise : ex))
+    // Use custom values if they were entered
+    const finalExercise = {
+      ...editedExercise,
+      block: showCustomBlock ? customBlock : editedExercise.block,
+      level: showCustomLevel ? customLevel : editedExercise.level,
+    }
+
+    const updatedExercises = exercises.map((ex) => (ex.id === editedExercise.id ? finalExercise : ex))
 
     setExercises(updatedExercises)
     saveLocalExercises(updatedExercises)
+
+    // Reset custom inputs
+    setShowCustomBlock(false)
+    setShowCustomLevel(false)
+    setCustomBlock("")
+    setCustomLevel("")
   }
 
   const deleteExercise = () => {
@@ -98,8 +113,7 @@ export default function ManagePage() {
   const allLevels = Array.from(new Set(exercises.map((ex) => ex.level))).sort()
 
   const filteredExercises = exercises.filter((ex) => {
-    const title = language === "en" ? ex.title_en : ex.title_fr
-    const matchesSearch = title.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchesSearch = ex.title_en.toLowerCase().includes(searchTerm.toLowerCase())
     const matchesBlock = blockFilter ? ex.block === blockFilter : true
     const matchesLevel = levelFilter ? ex.level === levelFilter : true
     return matchesSearch && matchesBlock && matchesLevel
@@ -124,8 +138,6 @@ export default function ManagePage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">
-      <LanguageToggle />
-
       <div className="flex justify-between items-center w-full max-w-4xl mb-8 mt-12">
         <Link href="/">
           <Button variant="outline" size="sm">
@@ -208,7 +220,7 @@ export default function ManagePage() {
                       className={`w-full justify-start text-left ${exercise.hidden ? "opacity-50" : ""}`}
                       onClick={() => setSelectedExerciseId(exercise.id)}
                     >
-                      {language === "en" ? exercise.title_en : exercise.title_fr}
+                      {exercise.title_en}
                     </Button>
                   ))}
                 </div>
@@ -226,7 +238,7 @@ export default function ManagePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">English Title</h3>
+                  <h3 className="text-sm font-medium">Title</h3>
                   <Input
                     value={editedExercise.title_en}
                     onChange={(e) => handleInputChange("title_en", e.target.value)}
@@ -234,7 +246,7 @@ export default function ManagePage() {
                 </div>
 
                 <div className="space-y-2">
-                  <h3 className="text-sm font-medium">English Description</h3>
+                  <h3 className="text-sm font-medium">Description</h3>
                   <Textarea
                     value={editedExercise.description_en}
                     onChange={(e) => handleInputChange("description_en", e.target.value)}
@@ -242,21 +254,99 @@ export default function ManagePage() {
                   />
                 </div>
 
-                <div className="space-y-2">
-                  <h3 className="text-sm font-medium">French Title</h3>
-                  <Input
-                    value={editedExercise.title_fr}
-                    onChange={(e) => handleInputChange("title_fr", e.target.value)}
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <h3 className="text-sm font-medium">French Description</h3>
-                  <Textarea
-                    value={editedExercise.description_fr}
-                    onChange={(e) => handleInputChange("description_fr", e.target.value)}
-                    rows={6}
-                  />
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <h3 className="text-sm font-medium">Block</h3>
+                    {!showCustomBlock ? (
+                      <Select
+                        value={editedExercise.block}
+                        onValueChange={(value) => {
+                          if (value === "_custom_") {
+                            setShowCustomBlock(true)
+                          } else {
+                            handleInputChange("block", value)
+                          }
+                        }}
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder="Select block" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {allBlocks.map((block) => (
+                            <SelectItem key={block} value={block}>
+                              {block}
+                            </SelectItem>
+                          ))}
+                          <SelectItem value="_custom_">+ Create new block</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    ) : (
+                      <div className="flex gap-2">
+                        <Input
+                          value={customBlock}
+                          onChange={(e) => setCustomBlock(e.target.value)}
+                          placeholder="Enter new block name"
+                          autoFocus
+                        />
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setShowCustomBlock(false)
+                            setCustomBlock("")
+                          }}
+                          className="text-xs text-gray-500 hover:text-gray-700"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="text-sm font-medium">Level</h3>
+                    {!showCustomLevel ? (
+                      <Select
+                        value={editedExercise.level}
+                        onValueChange={(value) => {
+                          if (value === "_custom_") {
+                            setShowCustomLevel(true)
+                          } else {
+                            handleInputChange("level", value)
+                          }
+                        }}
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder="Select level" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {allLevels.map((level) => (
+                            <SelectItem key={level} value={level}>
+                              {level}
+                            </SelectItem>
+                          ))}
+                          <SelectItem value="_custom_">+ Create new level</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    ) : (
+                      <div className="flex gap-2">
+                        <Input
+                          value={customLevel}
+                          onChange={(e) => setCustomLevel(e.target.value)}
+                          placeholder="Enter new level name"
+                          autoFocus
+                        />
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setShowCustomLevel(false)
+                            setCustomLevel("")
+                          }}
+                          className="text-xs text-gray-500 hover:text-gray-700"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    )}
+                  </div>
                 </div>
 
                 <div className="flex items-center space-x-2">
