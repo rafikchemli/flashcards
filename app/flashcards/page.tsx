@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import type { Exercise } from "@/lib/types"
 import Flashcard from "@/components/flashcard"
-import LanguageToggle from "@/components/language-toggle"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { ChevronLeft, ChevronRight, Home, Settings, RefreshCw } from "lucide-react"
@@ -74,9 +73,13 @@ export default function FlashcardsPage() {
       return matchesBlock && matchesLevel
     })
     setFilteredExercises(filtered)
+  }, [selectedBlocks, selectedLevels, exercises])
+
+  // Separate effect to reset position only when filters change (not when exercises update)
+  useEffect(() => {
     setCurrentIndex(0)
     setViewedIndices(new Set([0]))
-  }, [selectedBlocks, selectedLevels, exercises])
+  }, [selectedBlocks, selectedLevels])
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -126,6 +129,75 @@ export default function FlashcardsPage() {
     }
   }
 
+  const handleUpdateExercise = (updatedExercise: Exercise) => {
+    // Get all exercises from localStorage
+    const allExercises = getLocalExercises()
+
+    // Find and update the exercise by ID
+    const updatedAllExercises = allExercises.map((ex) =>
+      ex.id === updatedExercise.id ? updatedExercise : ex
+    )
+
+    // Save to localStorage
+    saveLocalExercises(updatedAllExercises)
+
+    // Check if the exercise was hidden
+    const wasHidden = updatedExercise.hidden && !filteredExercises.find(ex => ex.id === updatedExercise.id)?.hidden
+
+    if (wasHidden) {
+      // An exercise was just hidden - remove it from the session
+      const hiddenCardIndex = filteredExercises.findIndex(ex => ex.id === updatedExercise.id)
+
+      // Update exercises state (filter out hidden)
+      const updatedExercises = updatedAllExercises.filter((ex) => !ex.hidden)
+      setExercises(updatedExercises)
+
+      // Apply current filters and remove hidden exercises
+      const updatedFiltered = updatedExercises.filter((ex) => {
+        const matchesBlock = selectedBlocks.length > 0 ? selectedBlocks.includes(ex.block) : true
+        const matchesLevel = selectedLevels.length > 0 ? selectedLevels.includes(ex.level) : true
+        return matchesBlock && matchesLevel
+      })
+      setFilteredExercises(updatedFiltered)
+
+      // Adjust viewedIndices - remove the hidden card's index and shift down indices after it
+      const newViewedIndices = new Set<number>()
+      viewedIndices.forEach((idx) => {
+        if (idx < hiddenCardIndex) {
+          // Indices before the hidden card stay the same
+          newViewedIndices.add(idx)
+        } else if (idx > hiddenCardIndex) {
+          // Indices after the hidden card shift down by 1
+          newViewedIndices.add(idx - 1)
+        }
+        // Skip the hidden card's index itself
+      })
+      setViewedIndices(newViewedIndices)
+
+      // Adjust currentIndex
+      if (hiddenCardIndex === currentIndex) {
+        // Hiding the current card - stay at same index (now shows next card)
+        if (currentIndex >= updatedFiltered.length) {
+          setCurrentIndex(Math.max(0, updatedFiltered.length - 1))
+        }
+      } else if (hiddenCardIndex < currentIndex) {
+        // A card before the current one was hidden, decrease currentIndex
+        setCurrentIndex(currentIndex - 1)
+      }
+    } else {
+      // Exercise was just edited (not hidden) - update in place
+      const updatedExercises = exercises.map((ex) =>
+        ex.id === updatedExercise.id ? updatedExercise : ex
+      )
+      setExercises(updatedExercises)
+
+      const updatedFiltered = filteredExercises.map((ex) =>
+        ex.id === updatedExercise.id ? updatedExercise : ex
+      )
+      setFilteredExercises(updatedFiltered)
+    }
+  }
+
   if (isLoading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -140,8 +212,6 @@ export default function FlashcardsPage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">
-      <LanguageToggle />
-
       <div className="w-full max-w-2xl mb-2 mt-12">
         <div className="flex justify-between items-center mb-2">
           <span className="text-sm font-medium">Progress: {Math.round(progress)}%</span>
@@ -258,7 +328,7 @@ export default function FlashcardsPage() {
 
       <div className="flex-1 flex items-center justify-center w-full">
         {filteredExercises.length > 0 ? (
-          <Flashcard exercise={filteredExercises[currentIndex]} />
+          <Flashcard exercise={filteredExercises[currentIndex]} onUpdate={handleUpdateExercise} />
         ) : (
           <div className="w-full max-w-md h-96 flex items-center justify-center border rounded-lg shadow-md bg-white">
             <p className="text-lg text-gray-600 text-center">No exercises found with the selected filters. Please change filters.</p>
