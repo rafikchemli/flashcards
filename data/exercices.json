@@ -3,770 +3,2337 @@
     "id": 1,
     "title_en": "Pelvic Curl",
     "title_fr": "Pelvic Curl",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Hip extensor control\n• Spinal articulation\n\nSetup:\n• Lying supine in neutral spine position, legs bent, hip width apart, feet placed on pedal in Prehensile position (page 24 Foundation Reformer MAWB), pedal pressed down, arms by sides, palms down\n• Resistance: light to medium\n\nMovement:\n• Exhale: Roll pelvis and spine up\n• Inhale: Pause\n• Exhale: Roll spine and pelvis down, return to start position\n• Inhale: Pause\n\nCues:\n• Maintain prehensile position\n• Maximixe lumbar flexion as pelvis and spine roll up and down\n• Articulate through each vertebra as spine rolls up and down\n• Return to neutral spine position after each repetition",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Wunda_Chair_Pelvic_Curl.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Wunda_Chair_Pelvic_Curl.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain prehensile position",
+      "Maximixe lumbar flexion as pelvis and spine roll up and down",
+      "Articulate through each vertebra as spine rolls up and down",
+      "Return to neutral spine position after each repetition"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Hip extensor control",
+      "Spinal articulation"
+    ],
+    "setup": [
+      "Lying supine in neutral spine position, legs bent, hip width apart, feet placed on pedal in Prehensile position (page 24 Foundation Reformer MAWB), pedal pressed down, arms by sides, palms down",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: Roll pelvis and spine up",
+      "Inhale: Pause",
+      "Exhale: Roll spine and pelvis down, return to start position",
+      "Inhale: Pause"
+    ]
   },
   {
     "id": 2,
     "title_en": "Spine Twist Supine",
     "title_fr": "Spine Twist Supine",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Spinal rotator control and stretch\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying supine with lower back and pelvis on barrel, legs in tabletop position, thighs perpendicular to floor, hands holding handles\n\nMovement:\n• Inhale: Lower legs to one side\n• Exhale: Lift legs to center, return to start position\n• Inhale: Lower legs to one side\n• Exhale: Lift legs to center, return to start position\n• Alternate sides\n\nCues:\n• Maintain pelvic lumbar stabilization\n• Initiate rotation to side and back to center with abdominals\n• Move legs and pelvis as one unit\n• Keep holding handles firmly and pulling barrel toward back",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Spine_Twist_Supine.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Spine_Twist_Supine.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Initiate rotation to side and back to center with abdominals",
+      "Move legs and pelvis as one unit",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal rotator control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying supine with lower back and pelvis on barrel, legs in tabletop position, thighs perpendicular to floor, hands holding handles"
+    ],
+    "movement": [
+      "Inhale: Lower legs to one side",
+      "Exhale: Lift legs to center, return to start position",
+      "Inhale: Lower legs to one side",
+      "Exhale: Lift legs to center, return to start position",
+      "Alternate sides"
+    ]
   },
   {
     "id": 3,
     "title_en": "Chest Lift",
     "title_fr": "Chest Lift",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control and stretch\n• Hip adductor control\n• Pelvic lumbar stabilization\n• Thoracic stretch\n\nSetup:\n• Lying supine, legs bent, shins perpendicular to floor, feet hip width apart, fingers interlaced behind head\n\nMovement:\n• Exhale: Lift head and chest\n• Inhale: Pause\n• Exhale: Lower chest and head, return to start position\n• Inhale: Pause\n\nCues:\n• Keep elbows wide\n• Keep legs parallel\n• Support head with hands\n• Keep lumbar spine in contact with barrel",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Chest_Lift.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Chest_Lift.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep elbows wide",
+      "Keep legs parallel",
+      "Support head with hands",
+      "Keep lumbar spine in contact with barrel"
+    ],
+    "objectives": [
+      "Spinal flexor control and stretch",
+      "Hip adductor control",
+      "Pelvic lumbar stabilization",
+      "Thoracic stretch"
+    ],
+    "setup": [
+      "Lying supine, legs bent, shins perpendicular to floor, feet hip width apart, fingers interlaced behind head"
+    ],
+    "movement": [
+      "Exhale: Lift head and chest",
+      "Inhale: Pause",
+      "Exhale: Lower chest and head, return to start position",
+      "Inhale: Pause"
+    ]
   },
   {
     "id": 4,
     "title_en": "Chest Lift with Rotation",
     "title_fr": "Chest Lift with Rotation",
-    "description_en": "",
+    "description_en": "Objectives:\n• Abdominal strength with oblique emphasis\n• Pelvic stability\n\nSetup:\n• Starting in the Chest Lift position\n\nMovement:\n• Exhale: rotate to one side\n• Inhale: back to center\n• Exhale: rotate to other side\n• Inhale: back to center\n\nCues:\n• Keep pelvis stable\n• Rotate through the waist avoiding lateral flexion\n• Move head, shoulders and chest together as one unit\n• Maintain trunk flexion at a consistent height throughout\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Chest_Lift_with_Rotation.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Chest_Lift_with_Rotation.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Keep pelvis stable",
+      "Rotate through the waist avoiding lateral flexion",
+      "Move head, shoulders and chest together as one unit",
+      "Maintain trunk flexion at a consistent height throughout"
+    ],
+    "objectives": [
+      "Abdominal strength with oblique emphasis",
+      "Pelvic stability"
+    ],
+    "setup": [
+      "Starting in the Chest Lift position"
+    ],
+    "movement": [
+      "Exhale: rotate to one side",
+      "Inhale: back to center",
+      "Exhale: rotate to other side",
+      "Inhale: back to center"
+    ]
   },
   {
     "id": 5,
     "title_en": "Single Leg Lift",
     "title_fr": "Single Leg Lift",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip flexor control\n• Hip disassociation\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying supine in neutral spine position, knees bent, feet placed firmly on Mat, arms by sides\n\nMovement:\n• Exhale: Lift one leg, plantarflex foot\n• Inhale: Lower leg, touch Mat with toes\n• Change leg after 5 repetitions\n\nCues:\n• Maintain pelvic lumbar stabilization\n• Keep shoulders relaxed\n• Maintain consistent angle of knee joint (90 degrees)",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/BP_interactive_Single_Leg_Lift.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/BP_interactive_Single_Leg_Lift.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep shoulders relaxed",
+      "Maintain consistent angle of knee joint (90 degrees)"
+    ],
+    "objectives": [
+      "Hip flexor control",
+      "Hip disassociation",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying supine in neutral spine position, knees bent, feet placed firmly on Mat, arms by sides"
+    ],
+    "movement": [
+      "Exhale: Lift one leg, plantarflex foot",
+      "Inhale: Lower leg, touch Mat with toes",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 6,
     "title_en": "Leg Changes",
     "title_fr": "Leg Changes",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip flexor control\n• Hip disassociation\n• Pelvic lumbar stabilization\n\nSetup:\n• Starting in Single Leg Lift position (page 19)\n\nMovement:\n• Lift one leg, foot plantarflexed\n• Switch legs\n\nCues:\n• Maintain pelvic lumbar stabilization\n• Keep shoulders relaxed\n• Maintain consistent angle of knee joint (90 degrees)\n\nPrecautions:\n⚠️ Pregnancy",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Single_Leg_Lifts_Leg_Changes.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Single_Leg_Lifts_Leg_Changes.mp4",
+    "precautions": [
+      "Pregnancy"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep shoulders relaxed",
+      "Maintain consistent angle of knee joint (90 degrees)"
+    ],
+    "objectives": [
+      "Hip flexor control",
+      "Hip disassociation",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Starting in Single Leg Lift position (page 19)"
+    ],
+    "movement": [
+      "Lift one leg, foot plantarflexed",
+      "Switch legs"
+    ]
   },
   {
     "id": 7,
     "title_en": "Hundred Prep",
     "title_fr": "Hundred Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Shoulder extensor control\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying supine with head toward F2 Chair, feet on floor, heels pressing into the box, holding handles, arms straight, perpendicular, slight tension in springs\n• Socket: T, Lever Orientation: 0, Lever Length: 1, Lever Direction: 3, Connector: O, Spring: Y/S\n\nMovement:\n• Exhale: Lift head, shoulders and chest, lower arms down to sides of body\n• Inhale: Lift arms, to 90 degrees in shoulder joint, lower chest and head, return to start position\n\nCues:\n• Bias toward a posterior tilt of pelvis\n• Lift into spinal flexion as much as possible to reduce neck tension\n• Maintain pelvic lumbar stabilization",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/2024_F2_Chair_Hundred_Prep.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/2024_F2_Chair_Hundred_Prep.mp4",
+    "precautions": [],
+    "cues": [
+      "Bias toward a posterior tilt of pelvis",
+      "Lift into spinal flexion as much as possible to reduce neck tension",
+      "Maintain pelvic lumbar stabilization"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Shoulder extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying supine with head toward F2 Chair, feet on floor, heels pressing into the box, holding handles, arms straight, perpendicular, slight tension in springs",
+      "Socket: T, Lever Orientation: 0, Lever Length: 1, Lever Direction: 3, Connector: O, Spring: Y/S"
+    ],
+    "movement": [
+      "Exhale: Lift head, shoulders and chest, lower arms down to sides of body",
+      "Inhale: Lift arms, to 90 degrees in shoulder joint, lower chest and head, return to start position"
+    ]
   },
   {
     "id": 8,
     "title_en": "Roll Up",
     "title_fr": "Roll Up",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal mobility and stability\n• Hip flexors control\n\nSetup:\n• Lying supine in neutral spine position, arms overhead, palms facing each other, legs straight and together, feet plantarflexed\n\nMovement:\n• Inhale: Lift arms up and forward, followed by head and chest\n• Exhale: Roll up to eyes over knees\n• Inhale: Pause\n• Exhale: Roll down, return to start position\n\nCues:\n• Pause briefly in Chest Lift position (page 17)\n• Maintain C curve when rolling up and rolling down\n• Pause when shoulders are in front of hip joints and eyes are over knee joints\n• Keep head aligned with spine\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Roll_Up.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Roll_Up.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Pause briefly in Chest Lift position (page 17)",
+      "Maintain C curve when rolling up and rolling down",
+      "Pause when shoulders are in front of hip joints and eyes are over knee joints",
+      "Keep head aligned with spine"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal mobility and stability",
+      "Hip flexors control"
+    ],
+    "setup": [
+      "Lying supine in neutral spine position, arms overhead, palms facing each other, legs straight and together, feet plantarflexed"
+    ],
+    "movement": [
+      "Inhale: Lift arms up and forward, followed by head and chest",
+      "Exhale: Roll up to eyes over knees",
+      "Inhale: Pause",
+      "Exhale: Roll down, return to start position"
+    ]
   },
   {
     "id": 9,
     "title_en": "Leg Circles",
     "title_fr": "Leg Circles",
-    "description_en": "",
+    "description_en": "Objectives:\n• Pelvic lumbar stabilization\n• Hip disassociation\n\nSetup:\n• Setup: Lying supine, arms down by sides or in T position, one leg straight up to ceiling, foot dorsiflexed, other leg on Mat,  foot plantarflexed\n\nMovement:\n• Inhale: Bring leg across center line, circle down and around\n• Exhale: Repeat circle, same direction\n• Reverse direction after 5 repetitions\n• Change legs\n\nCues:\n• Keep shoulders stable\n• Maintain fluid movement\n• Keep circles within range of pelvic lumbar control\n\nPrecautions:\n⚠️ Pregnancy",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Circles.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Circles.mp4",
+    "precautions": [
+      "Pregnancy"
+    ],
+    "cues": [
+      "Keep shoulders stable",
+      "Maintain fluid movement",
+      "Keep circles within range of pelvic lumbar control"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip disassociation"
+    ],
+    "setup": [
+      "Setup: Lying supine, arms down by sides or in T position, one leg straight up to ceiling, foot dorsiflexed, other leg on Mat,  foot plantarflexed"
+    ],
+    "movement": [
+      "Inhale: Bring leg across center line, circle down and around",
+      "Exhale: Repeat circle, same direction",
+      "Reverse direction after 5 repetitions",
+      "Change legs"
+    ]
   },
   {
     "id": 10,
     "title_en": "Roll-Like-a-Ball",
     "title_fr": "Roll-Like-a-Ball",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Shoulder stabilization\n• Elbow flexor control\n\nSetup:\n• Sitting in balanced position, body in ball shape, legs bent, hands on shins (close to ankles), feet off Mat\n\nMovement:\n• Inhale: Roll Back\n• Exhale: Roll forward, return to start position\n\nCues:\n• Maintain fluid movement\n• Keep ball shape consistent\n• Keep head aligned with spine\n• Keep pulling legs toward chest and heels toward sit bones\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rolling.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rolling.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Maintain fluid movement",
+      "Keep ball shape consistent",
+      "Keep head aligned with spine",
+      "Keep pulling legs toward chest and heels toward sit bones"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Shoulder stabilization",
+      "Elbow flexor control"
+    ],
+    "setup": [
+      "Sitting in balanced position, body in ball shape, legs bent, hands on shins (close to ankles), feet off Mat"
+    ],
+    "movement": [
+      "Inhale: Roll Back",
+      "Exhale: Roll forward, return to start position"
+    ]
   },
   {
     "id": 11,
     "title_en": "Spine Stretch",
     "title_fr": "Spine Stretch",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip extensor stretch\n• Spinal articulation\n• Trunk stabilization\n\nSetup:\n• Sitting upright, legs straight, feet dorsiflexed slightly wider than shoulder width apart, arms straight and reaching forward, parallel to Mat, palms facing each other\n\nMovement:\n• Inhale: Prepare\n• Exhale: Roll down and forward through spine\n• Inhale: Pause\n• Exhale: Roll up through spine, return to start position\n\nCues:\n• Keep toes facing ceiling throughout\n• Maintain scapular stabilization\n• Articulate spine as if rolling down and up a wall\n• Following roll down tip pelvis forward, prior to roll up return pelvis to upright position\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Spine_Stretch.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Spine_Stretch.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Keep toes facing ceiling throughout",
+      "Maintain scapular stabilization",
+      "Articulate spine as if rolling down and up a wall",
+      "Following roll down tip pelvis forward, prior to roll up return pelvis to upright position"
+    ],
+    "objectives": [
+      "Hip extensor stretch",
+      "Spinal articulation",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Sitting upright, legs straight, feet dorsiflexed slightly wider than shoulder width apart, arms straight and reaching forward, parallel to Mat, palms facing each other"
+    ],
+    "movement": [
+      "Inhale: Prepare",
+      "Exhale: Roll down and forward through spine",
+      "Inhale: Pause",
+      "Exhale: Roll up through spine, return to start position"
+    ]
   },
   {
     "id": 12,
     "title_en": "Side Lifts",
     "title_fr": "Side Lifts",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal lateral flexor strength\n• Trunk stabilization\n• Hip adductor control\n\nSetup:\n• Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, legs together, top hand placed on Mat, elbow bent\n\nMovement:\n• Exhale: Lift legs\n• Inhale: Lower legs, without touching Mat\n• Change side after 10 repetitions\n\nCues:\n• Bias work toward abdominals (move legs slightly forward of center line if necessary)\n• Keep neck and shoulders relaxed\n• Move legs as one unit when tilting pelvis",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Lifts.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Lifts.mp4",
+    "precautions": [],
+    "cues": [
+      "Bias work toward abdominals (move legs slightly forward of center line if necessary)",
+      "Keep neck and shoulders relaxed",
+      "Move legs as one unit when tilting pelvis"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength",
+      "Trunk stabilization",
+      "Hip adductor control"
+    ],
+    "setup": [
+      "Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, legs together, top hand placed on Mat, elbow bent"
+    ],
+    "movement": [
+      "Exhale: Lift legs",
+      "Inhale: Lower legs, without touching Mat",
+      "Change side after 10 repetitions"
+    ]
   },
   {
     "id": 13,
     "title_en": "Back Extension",
     "title_fr": "Back Extension",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying prone, head aligned with spine, arms straight and by sides, pressing against legs\n\nMovement:\n• Inhale: Lift upper trunk\n• Exhale: Lower upper trunk, without touching Mat\n\nCues:\n• Keep head aligned with spine\n• Keep legs together\n• Maintain abdominal support\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Back_Extention.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Back_Extention.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Stenosis - Spondylolisthesis",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Keep legs together",
+      "Maintain abdominal support"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying prone, head aligned with spine, arms straight and by sides, pressing against legs"
+    ],
+    "movement": [
+      "Inhale: Lift upper trunk",
+      "Exhale: Lower upper trunk, without touching Mat"
+    ]
   },
   {
     "id": 14,
     "title_en": "Rest Position",
     "title_fr": "Rest Position",
-    "description_en": "",
+    "description_en": "Objectives:\n• Relaxation\n• Stretch lumbar spine\n\nSetup:\n• Kneeling with legs together, pelvis resting on heels, chest resting on thighs, arms reaching forward, neck relaxed\n\nMovement:\n• Breathe freely, relaxing back, neck and shoulders\n\nCues:\n• Allow pelvis to sink towards heels\n• Visualize lumbar vertebrae opening\n• Breathe fully and relax deeper with with each exhalation",
     "description_fr": "",
     "block": "Foundation",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Rest.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Rest.mp4",
+    "precautions": [],
+    "cues": [
+      "Allow pelvis to sink towards heels",
+      "Visualize lumbar vertebrae opening",
+      "Breathe fully and relax deeper with with each exhalation"
+    ],
+    "objectives": [
+      "Relaxation",
+      "Stretch lumbar spine"
+    ],
+    "setup": [
+      "Kneeling with legs together, pelvis resting on heels, chest resting on thighs, arms reaching forward, neck relaxed"
+    ],
+    "movement": [
+      "Breathe freely, relaxing back, neck and shoulders"
+    ]
   },
   {
     "id": 15,
     "title_en": "Hundred",
     "title_fr": "Hundred",
-    "description_en": "",
+    "description_en": "Objectives:\n• Abdominal strength\n• Hip flexor control\n• Trunk stabilization\n• Shoulder flexor/extensor control\n\nSetup:\n• Starting in Hundred Prep position (page 27)\n• Lying supine in neutral spine position, legs in tabletop position, hands in straps, arms perpendicular, slight tension in straps\n• Resistance: light to medium\n\nMovement:\n• Exhale: Lift arms, head and chest, bringing arms to sides of body parallel to carriage, straighten legs forward\n• Inhale: Prepare\n• Exhale: Pump arms up and down for 5 counts\n• Inhale: Pump arms up and down for 5 counts (Continue for 10 breath cycles)\n• Final Exhale: Lower body, return to start position\n\nCues:\n• Maintain consistent height of trunk flexion throughout exercise\n• Keep movement of arms small\n• Maintain legs stable at a safe height\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Reformer_Hundred.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Reformer_Hundred.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Maintain consistent height of trunk flexion throughout exercise",
+      "Keep movement of arms small",
+      "Maintain legs stable at a safe height"
+    ],
+    "objectives": [
+      "Abdominal strength",
+      "Hip flexor control",
+      "Trunk stabilization",
+      "Shoulder flexor/extensor control"
+    ],
+    "setup": [
+      "Starting in Hundred Prep position (page 27)",
+      "Lying supine in neutral spine position, legs in tabletop position, hands in straps, arms perpendicular, slight tension in straps",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: Lift arms, head and chest, bringing arms to sides of body parallel to carriage, straighten legs forward",
+      "Inhale: Prepare",
+      "Exhale: Pump arms up and down for 5 counts",
+      "Inhale: Pump arms up and down for 5 counts (Continue for 10 breath cycles)",
+      "Final Exhale: Lower body, return to start position"
+    ]
   },
   {
     "id": 16,
     "title_en": "Double Leg Stretch",
     "title_fr": "Double Leg Stretch",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Trunk stabilization\n• Shoulder mobility\n\nSetup:\n• Lying supine, legs bent, hands on knees, shins parallel to Mat, trunk in Chest Lift position (page 17)\n\nMovement:\n• Inhale: Reach arms overhead. straighten legs forward\n• Exhale: Circle arms around, simultaneously bend legs toward chest, return to start position\n\nCues:\n• Keep head aligned with spine\n• Reach arms as far back as possible\n• Avoid scapular elevation\n• Maintain consistent height of trunk\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Double_Leg_Stretch.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Double_Leg_Stretch.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Keep head aligned with spine",
+      "Reach arms as far back as possible",
+      "Avoid scapular elevation",
+      "Maintain consistent height of trunk"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Trunk stabilization",
+      "Shoulder mobility"
+    ],
+    "setup": [
+      "Lying supine, legs bent, hands on knees, shins parallel to Mat, trunk in Chest Lift position (page 17)"
+    ],
+    "movement": [
+      "Inhale: Reach arms overhead. straighten legs forward",
+      "Exhale: Circle arms around, simultaneously bend legs toward chest, return to start position"
+    ]
   },
   {
     "id": 17,
     "title_en": "Single Leg Stretch",
     "title_fr": "Single Leg Stretch",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Trunk stabilization\n\nSetup:\n• Starting in Double Leg Stretch position (page 30)\n\nMovement:\n• Exhale: Straighten one leg, inside hand on bent knee, outside hand on top of other hand\n• Inhale: Switch legs and hands\n• Exhale: Straighten other leg, hands on bent knee\n• Inhale: Switch legs and hands\n• Final Inhale: Bend both legs, return to start position\n\nCues:\n• Maintain trunk flexion at consistent height\n• Keep feet at same height\n• Keep shin of bent leg parallel to Mat\n• Use arms to support position\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Single_Leg_Stretch.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Single_Leg_Stretch.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Maintain trunk flexion at consistent height",
+      "Keep feet at same height",
+      "Keep shin of bent leg parallel to Mat",
+      "Use arms to support position"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Double Leg Stretch position (page 30)"
+    ],
+    "movement": [
+      "Exhale: Straighten one leg, inside hand on bent knee, outside hand on top of other hand",
+      "Inhale: Switch legs and hands",
+      "Exhale: Straighten other leg, hands on bent knee",
+      "Inhale: Switch legs and hands",
+      "Final Inhale: Bend both legs, return to start position"
+    ]
   },
   {
     "id": 18,
     "title_en": "Criss Cross",
     "title_fr": "Criss Cross",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal rotator strength\n• Spinal flexor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Starting in Double Leg Stretch position (page 30), place hands behind head, fingers interlaced\n\nMovement:\n• Exhale: Straighten one leg, rotate toward bent knee\n• Inhale: Switch legs\n• Exhale: Straighten other leg, rotate toward bent knee\n• Inhale: Switch legs\n• Final Inhale: Bend both legs, return to start position\n\nCues:\n• Maintain trunk flexion at consistent height\n• Maximize engagement of abdominal obliques\n• Maximize rotation while avoiding lateral flexion\n• Keep elbows wide\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Criss_Cross.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Criss_Cross.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis"
+    ],
+    "cues": [
+      "Maintain trunk flexion at consistent height",
+      "Maximize engagement of abdominal obliques",
+      "Maximize rotation while avoiding lateral flexion",
+      "Keep elbows wide"
+    ],
+    "objectives": [
+      "Spinal rotator strength",
+      "Spinal flexor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Starting in Double Leg Stretch position (page 30), place hands behind head, fingers interlaced"
+    ],
+    "movement": [
+      "Exhale: Straighten one leg, rotate toward bent knee",
+      "Inhale: Switch legs",
+      "Exhale: Straighten other leg, rotate toward bent knee",
+      "Inhale: Switch legs",
+      "Final Inhale: Bend both legs, return to start position"
+    ]
   },
   {
     "id": 19,
     "title_en": "Saw",
     "title_fr": "Saw",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor and rotator control\n• Spinal extensor control\n• Hip extensor stretch\n\nSetup:\n• Starting in Sitting Forward position (page 111 Foundation Reformer/Cadillac MAWB)\n• Resistance: light\n\nMovement:\n• Exhale: Round trunk into C curve, lean back\n• Inhale: Release one arm, extend trunk to upright position, rotate trunk toward arm holding PTBar\n• Exhale: Reach forward, trunk over leg, hand to outside of foot\n• Inhale: Lift trunk to upright, rotate to center, return to start position\n\nCues:\n• Rotate trunk on longitudinal axis prior to and following stretch\n• Keep back extensors engaged\n• Keep head aligned with spine during rotation and stretch",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Cadillac_Saw_Push_Through_Series.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Cadillac_Saw_Push_Through_Series.mp4",
+    "precautions": [],
+    "cues": [
+      "Rotate trunk on longitudinal axis prior to and following stretch",
+      "Keep back extensors engaged",
+      "Keep head aligned with spine during rotation and stretch"
+    ],
+    "objectives": [
+      "Spinal flexor and rotator control",
+      "Spinal extensor control",
+      "Hip extensor stretch"
+    ],
+    "setup": [
+      "Starting in Sitting Forward position (page 111 Foundation Reformer/Cadillac MAWB)",
+      "Resistance: light"
+    ],
+    "movement": [
+      "Exhale: Round trunk into C curve, lean back",
+      "Inhale: Release one arm, extend trunk to upright position, rotate trunk toward arm holding PTBar",
+      "Exhale: Reach forward, trunk over leg, hand to outside of foot",
+      "Inhale: Lift trunk to upright, rotate to center, return to start position"
+    ]
   },
   {
     "id": 20,
     "title_en": "Spine Twist",
     "title_fr": "Spine Twist",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal rotator control\n• Spinal extensor control\n\nSetup:\n• Starting in Side Stretch position (page 20)\n\nMovement:\n• Exhale: Rotate trunk to one side (2 pulses)\n• Inhale: Rotate back to center\n• Exhale: Rotate trunk to other side (2 pulses)\n• Inhale: Rotate back to center\n• Alternate sides\n\nCues:\n• Initiate movement from trunk and not arms\n• Keep pelvis stable\n• Maintain equal weight on both feet\n• Keep nose aligned over stenum",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Pole_Spine_Twist_Pole_Series.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Pole_Spine_Twist_Pole_Series.mp4",
+    "precautions": [],
+    "cues": [
+      "Initiate movement from trunk and not arms",
+      "Keep pelvis stable",
+      "Maintain equal weight on both feet",
+      "Keep nose aligned over stenum"
+    ],
+    "objectives": [
+      "Spinal rotator control",
+      "Spinal extensor control"
+    ],
+    "setup": [
+      "Starting in Side Stretch position (page 20)"
+    ],
+    "movement": [
+      "Exhale: Rotate trunk to one side (2 pulses)",
+      "Inhale: Rotate back to center",
+      "Exhale: Rotate trunk to other side (2 pulses)",
+      "Inhale: Rotate back to center",
+      "Alternate sides"
+    ]
   },
   {
     "id": 21,
     "title_en": "Corkscrew",
     "title_fr": "Corkscrew",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Spinal rotator control\n• Hip flexor control\n\nSetup:\n• Starting in Scissors position (page 57)\n\nMovement:\n• Inhale: Lower legs to one side\n• Exhale: Circle legs down and around to opposite side, return to start position\n• Alternate direction\n\nCues:\n• Keep legs together\n• Move legs and pelvis as one unit\n• Avoid lowering legs beyond diagonal line\n• Initiate rotation to side and back to center with abdominals\n• Keep holding handles firmly and pulling barrel toward back",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Corkscrew.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Corkscrew.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs together",
+      "Move legs and pelvis as one unit",
+      "Avoid lowering legs beyond diagonal line",
+      "Initiate rotation to side and back to center with abdominals",
+      "Keep holding handles firmly and pulling barrel toward back"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal rotator control",
+      "Hip flexor control"
+    ],
+    "setup": [
+      "Starting in Scissors position (page 57)"
+    ],
+    "movement": [
+      "Inhale: Lower legs to one side",
+      "Exhale: Circle legs down and around to opposite side, return to start position",
+      "Alternate direction"
+    ]
   },
   {
     "id": 22,
     "title_en": "Side Leg Kick",
     "title_fr": "Side Leg Kick",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip abductor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, top hand placed on Mat, elbow bent, bottom hip and knee at 90 degrees flexion, top leg straight, hip height in line with trunk, hip internally rotated\n• Resistance: light to medium\n\nMovement:\n• Exhale: Lift leg\n• Inhale Lower leg, return to start position\n\nCues:\n• Keep knee slightly bent\n• Keep pelvis stable as leg moves down and up\n• Keep Leg and foot relaxed, toes directed toward Mat",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+LW+Side+Leg+Lift+1080.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+LW+Side+Leg+Lift+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep knee slightly bent",
+      "Keep pelvis stable as leg moves down and up",
+      "Keep Leg and foot relaxed, toes directed toward Mat"
+    ],
+    "objectives": [
+      "Hip abductor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, top hand placed on Mat, elbow bent, bottom hip and knee at 90 degrees flexion, top leg straight, hip height in line with trunk, hip internally rotated",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: Lift leg",
+      "Inhale Lower leg, return to start position"
+    ]
   },
   {
     "id": 23,
     "title_en": "Cat Stretch",
     "title_fr": "Cat Stretch",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Spinal extensor control\n• Lumbar spine stretch\n• Pelvic lumbar stabilization\n\nSetup:\n• Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips\n\nMovement:\n• Exhale: Round spine, return to start position\n• Inhale: Extend spine, return to start position\n\nCues:\n• Focus flexion in lumbar spine\n• Focus extension in thoracic spine\n• Keep pelvic lumbar region stable during thoracic extension\n• Maintain scapular stabilization throughout\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Stenosis - Spondylolisthesis",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Cat_Stretch.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Cat_Stretch.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Stenosis - Spondylolisthesis"
+    ],
+    "cues": [
+      "Focus flexion in lumbar spine",
+      "Focus extension in thoracic spine",
+      "Keep pelvic lumbar region stable during thoracic extension",
+      "Maintain scapular stabilization throughout"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal extensor control",
+      "Lumbar spine stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips"
+    ],
+    "movement": [
+      "Exhale: Round spine, return to start position",
+      "Inhale: Extend spine, return to start position"
+    ]
   },
   {
     "id": 24,
     "title_en": "Front Support",
     "title_fr": "Front Support",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Trunk stabilization\n• Hip flexor control\n• Scapular stabilization\n\nSetup:\n• Starting in plank position, arms straight and parallel, wrists under shoulders, legs straight and parallel, feet hip width apart (Front Support position)\n\nMovement:\n• Exhale: Bend one leg toward chest\n• Inhale: Straigthen leg back, return to start position\n• Exhale: bend opposite leg toward chest\n• Inhale: Straighten leg back, return to start position\n\nCues:\n• Keep body in straight diagonal line\n• Keep abdominals engaged to avoid sinking in lower back\n• Focus on hip disassociation",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Front_Support.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Front_Support.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep body in straight diagonal line",
+      "Keep abdominals engaged to avoid sinking in lower back",
+      "Focus on hip disassociation"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Trunk stabilization",
+      "Hip flexor control",
+      "Scapular stabilization"
+    ],
+    "setup": [
+      "Starting in plank position, arms straight and parallel, wrists under shoulders, legs straight and parallel, feet hip width apart (Front Support position)"
+    ],
+    "movement": [
+      "Exhale: Bend one leg toward chest",
+      "Inhale: Straigthen leg back, return to start position",
+      "Exhale: bend opposite leg toward chest",
+      "Inhale: Straighten leg back, return to start position"
+    ]
   },
   {
     "id": 25,
     "title_en": "Back Support",
     "title_fr": "Back Support",
-    "description_en": "",
+    "description_en": "Objectives:\n• Shoulder extensor strength\n• Hip extensor strength\n• Trunk stabilization\n\nSetup:\n• Sitting, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing feet, legs straight and parallel, feet plantarflexed, hip width apart\n\nMovement:\n• Exhale: Lift pelvis (Back Support position)\n• Inhale: Lower pelvis, without touching Mat\n\nCues:\n• Create straight diagonal line when pelvis is lifted\n• Hinge at hip joint when lifting and lowering pelvis\n• Move trunk as one unit\n• If there is discomfort in wrists, face fingers out to sides or make fists\n\nPrecautions:\n⚠️ Shoulder Impingement",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Back_Support.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Back_Support.mp4",
+    "precautions": [
+      "Shoulder Impingement"
+    ],
+    "cues": [
+      "Create straight diagonal line when pelvis is lifted",
+      "Hinge at hip joint when lifting and lowering pelvis",
+      "Move trunk as one unit",
+      "If there is discomfort in wrists, face fingers out to sides or make fists"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Hip extensor strength",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Sitting, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing feet, legs straight and parallel, feet plantarflexed, hip width apart"
+    ],
+    "movement": [
+      "Exhale: Lift pelvis (Back Support position)",
+      "Inhale: Lower pelvis, without touching Mat"
+    ]
   },
   {
     "id": 26,
     "title_en": "Seal Puppy",
     "title_fr": "Seal Puppy",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Hip joint flexibility\n\nSetup:\n• Sitting in balanced position with body in ball shape, legs bent, arms wrapped under legs, feet plantarflexed, palms on top of feet\n\nMovement:\n• Inhale: Roll back, clap feet together three times\n• Exhale: Roll up, return to start position, clap feet together three times\n\nCues:\n• Keep eyes forward\n• Maintain scapular stabilization\n• Maintain consistent curve of spine\n• Roll onto shoulders, avoid rolling onto neck\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Total Hip Replacement\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Seal_Puppy.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Seal_Puppy.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Total Hip Replacement",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep eyes forward",
+      "Maintain scapular stabilization",
+      "Maintain consistent curve of spine",
+      "Roll onto shoulders, avoid rolling onto neck"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Hip joint flexibility"
+    ],
+    "setup": [
+      "Sitting in balanced position with body in ball shape, legs bent, arms wrapped under legs, feet plantarflexed, palms on top of feet"
+    ],
+    "movement": [
+      "Inhale: Roll back, clap feet together three times",
+      "Exhale: Roll up, return to start position, clap feet together three times"
+    ]
   },
   {
     "id": 27,
     "title_en": "Hamstring Pull 1",
     "title_fr": "Hamstring Pull 1",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Pelvic lumbar stabilization\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n\nSetup:\n• Starting in Chest Lift position (page 17), legs together, perpendicular to Mat, hands behind calves\n\nMovement:\n• Exhale: Lower one leg to Mat, lift other leg toward chest holding calf (2 pulses)\n• Inhale: Switch legs\n\nCues:\n• Pull gently on leg during pulses\n• Maintain stability of trunk and pelvis as legs change\n• Anchor bottom leg on Mat and keep stable (no pulses)\n• Maintain consistent height of trunk\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Total Hip Replacement\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_1.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_1.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Total Hip Replacement",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Pull gently on leg during pulses",
+      "Maintain stability of trunk and pelvis as legs change",
+      "Anchor bottom leg on Mat and keep stable (no pulses)",
+      "Maintain consistent height of trunk"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Pelvic lumbar stabilization",
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "setup": [
+      "Starting in Chest Lift position (page 17), legs together, perpendicular to Mat, hands behind calves"
+    ],
+    "movement": [
+      "Exhale: Lower one leg to Mat, lift other leg toward chest holding calf (2 pulses)",
+      "Inhale: Switch legs"
+    ]
   },
   {
     "id": 28,
     "title_en": "Roll Over",
     "title_fr": "Roll Over",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal articulation\n• Lower back and hip extensor stretch\n\nSetup:\n• Lying supine with lower back and pelvis on barrel, legs straight and together, feet plantarflexed, hands holding levers, body on diagonal line\n• Socket: C, Lever Orientation: 0, Lever Length: 1, Lever Direction: 5, Connector: O, Spring: Y/S\n\nMovement:\n• Inhale: Lift legs to 90 degree in hip joint\n• Exhale: Roll over, legs parallel to floor\n• Inhale: Dorsiflex feet, separate legs, lower legs toward mat\n• Exhale: Roll back, lift legs perpendicular to floor, plantarflex feet, lower legs to diagonal line, bring legs together, return to start position\n\nCues:\n• Maintain 90 degree angle in hip joint during roll over\n• Keep thighs close to chest when rolling back\n• Avoid lowering legs beyond diagonal line",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Avalon_Step_Barrel_Roll_Over.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Avalon_Step_Barrel_Roll_Over.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain 90 degree angle in hip joint during roll over",
+      "Keep thighs close to chest when rolling back",
+      "Avoid lowering legs beyond diagonal line"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Lower back and hip extensor stretch"
+    ],
+    "setup": [
+      "Lying supine with lower back and pelvis on barrel, legs straight and together, feet plantarflexed, hands holding levers, body on diagonal line",
+      "Socket: C, Lever Orientation: 0, Lever Length: 1, Lever Direction: 5, Connector: O, Spring: Y/S"
+    ],
+    "movement": [
+      "Inhale: Lift legs to 90 degree in hip joint",
+      "Exhale: Roll over, legs parallel to floor",
+      "Inhale: Dorsiflex feet, separate legs, lower legs toward mat",
+      "Exhale: Roll back, lift legs perpendicular to floor, plantarflex feet, lower legs to diagonal line, bring legs together, return to start position"
+    ]
   },
   {
     "id": 29,
     "title_en": "Open Leg Rocker",
     "title_fr": "Open Leg Rocker",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Spinal extensor control\n• Spinal articulation\n\nSetup:\n• Sitting in balanced position, back flat, one hand holding each leg (close to ankles), legs shoulder width apart, arms straight, feet plantarflexed\n\nMovement:\n• Inhale: Round back, roll back\n• Exhale: Roll up, straighten back, return to start position\n\nCues:\n• Keep arms straight\n• Initiate roll back with flexion of lumbar spine\n• Utilize spinal flexors to initiate movement\n• Utilize spinal extensors to complete movement\n• Maintain scapular stabilization",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Open_Leg_Rocker.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Open_Leg_Rocker.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep arms straight",
+      "Initiate roll back with flexion of lumbar spine",
+      "Utilize spinal flexors to initiate movement",
+      "Utilize spinal extensors to complete movement",
+      "Maintain scapular stabilization"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Spinal extensor control",
+      "Spinal articulation"
+    ],
+    "setup": [
+      "Sitting in balanced position, back flat, one hand holding each leg (close to ankles), legs shoulder width apart, arms straight, feet plantarflexed"
+    ],
+    "movement": [
+      "Inhale: Round back, roll back",
+      "Exhale: Roll up, straighten back, return to start position"
+    ]
   },
   {
     "id": 30,
     "title_en": "Shoulder Bridge Prep",
     "title_fr": "Shoulder Bridge Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Pelvic lumbar stabilization\n• Hip extensor strength\n• Hip flexor control\n• Hip disassociation\n\nSetup:\n• Starting in up phase of Pelvic Curl (page 15)\n\nMovement:\n• Exhale: Lift one leg toward chest, plantarflex foot\n• Inhale: Lower leg, touching Mat with toes\n• Change leg after 5 repetitions\n\nCues:\n• Keep hip adductors engaged\n• Maintain 90 degree angle in knee of moving leg\n• Maintain hip extension with supporting leg\n• Keep pelvis lifted, level, and stable\n• Keep arms pressing into Mat\n\nPrecautions:\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Shoulder_Bridge_Prep.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Shoulder_Bridge_Prep.mp4",
+    "precautions": [
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep hip adductors engaged",
+      "Maintain 90 degree angle in knee of moving leg",
+      "Maintain hip extension with supporting leg",
+      "Keep pelvis lifted, level, and stable",
+      "Keep arms pressing into Mat"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip extensor strength",
+      "Hip flexor control",
+      "Hip disassociation"
+    ],
+    "setup": [
+      "Starting in up phase of Pelvic Curl (page 15)"
+    ],
+    "movement": [
+      "Exhale: Lift one leg toward chest, plantarflex foot",
+      "Inhale: Lower leg, touching Mat with toes",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 31,
     "title_en": "Side Kick",
     "title_fr": "Side Kick",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n\nSetup:\n• Lying on side, leaning on elbow, fingers touching sides of head, trunk lifted, legs straight and aligned with body, top leg at hip height, feet plantarflexed\n\nMovement:\n• Exhale: Swing top leg forward, dorsiflex foot (2 pulses)\n• Inhale: Swing top leg back, plantarflex foot (2 pulses)\n• Change leg after 5 repetitions\n\nCues:\n• Maintain neutral pelvis (as close as possible)\n• Maintain stable trunk\n• Avoid sinking into supporting shoulder and rib cage\n• Keep head aligned with spine",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Kick.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Kick.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain neutral pelvis (as close as possible)",
+      "Maintain stable trunk",
+      "Avoid sinking into supporting shoulder and rib cage",
+      "Keep head aligned with spine"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "setup": [
+      "Lying on side, leaning on elbow, fingers touching sides of head, trunk lifted, legs straight and aligned with body, top leg at hip height, feet plantarflexed"
+    ],
+    "movement": [
+      "Exhale: Swing top leg forward, dorsiflex foot (2 pulses)",
+      "Inhale: Swing top leg back, plantarflex foot (2 pulses)",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 32,
     "title_en": "Double Leg Kick",
     "title_fr": "Double Leg Kick",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor control\n• Shoulder and thoracic stretch\n\nSetup:\n• Lying prone, legs straight and together, lifted off Mat, fingers interlaced behind back, arms relaxed, head to side, cheek resting on Mat\n\nMovement:\n• Exhale: Bend both legs (3 pulses)\n• Inhale: Extend back, turn head to center, straighten legs and arms\n• Exhale: Lower trunk, bend arms and legs, turn head to opposite side (3 pulses)\n• Inhale: Extend back, turn head to center, straighten legs and arms\n\nCues:\n• Maintain scapular stabilization\n• Reach elbows to Mat when hands are resting on back\n• Keep legs lifted off Mat\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Stenosis - Spondylolisthesis",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Double_Leg_Kick.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Double_Leg_Kick.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Stenosis - Spondylolisthesis"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Reach elbows to Mat when hands are resting on back",
+      "Keep legs lifted off Mat"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Shoulder and thoracic stretch"
+    ],
+    "setup": [
+      "Lying prone, legs straight and together, lifted off Mat, fingers interlaced behind back, arms relaxed, head to side, cheek resting on Mat"
+    ],
+    "movement": [
+      "Exhale: Bend both legs (3 pulses)",
+      "Inhale: Extend back, turn head to center, straighten legs and arms",
+      "Exhale: Lower trunk, bend arms and legs, turn head to opposite side (3 pulses)",
+      "Inhale: Extend back, turn head to center, straighten legs and arms"
+    ]
   },
   {
     "id": 33,
     "title_en": "Swimming",
     "title_fr": "Swimming",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Hip extensor control\n• Shoulder flexor control\n\nSetup:\n• Lying prone, arms straight and reaching forward, legs straight and reaching back, chest, arms and legs lifted off Mat, head between arms\n\nMovement:\n• Inhale: Lift right arm and left leg, left arm and right leg continue alternating (5 counts)\n• Exhale: Continue movement pattern (5 counts)\n\nCues:\n• Maintain scapular stabilization\n• Maintain trunk stabilization\n• Focus on cross-pattern coordination of arms and legs\n• Keep head aligned with spine\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Stenosis - Spondylolisthesis",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swimming.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swimming.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Stenosis - Spondylolisthesis"
+    ],
+    "cues": [
+      "Maintain scapular stabilization",
+      "Maintain trunk stabilization",
+      "Focus on cross-pattern coordination of arms and legs",
+      "Keep head aligned with spine"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Hip extensor control",
+      "Shoulder flexor control"
+    ],
+    "setup": [
+      "Lying prone, arms straight and reaching forward, legs straight and reaching back, chest, arms and legs lifted off Mat, head between arms"
+    ],
+    "movement": [
+      "Inhale: Lift right arm and left leg, left arm and right leg continue alternating (5 counts)",
+      "Exhale: Continue movement pattern (5 counts)"
+    ]
   },
   {
     "id": 34,
     "title_en": "Rocking Prep",
     "title_fr": "Rocking Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor control\n• Knee extensor control\n• Chest stretch\n\nSetup:\n• Lying prone, knees bent, arms straight and reaching back, feet plantarflexed, hands holding feet\n\nMovement:\n• Inhale: Lift trunk and legs toward ceiling\n• Exhale: Lower trunk and legs to Mat, return to start position\n\nCues:\n• Reach toes toward ceiling\n• Keep head aligned with spine\n• Extend hips, knees and back simultaneously\n• Maintain scapular stabilization\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rocking_Prep.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rocking_Prep.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Reach toes toward ceiling",
+      "Keep head aligned with spine",
+      "Extend hips, knees and back simultaneously",
+      "Maintain scapular stabilization"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Knee extensor control",
+      "Chest stretch"
+    ],
+    "setup": [
+      "Lying prone, knees bent, arms straight and reaching back, feet plantarflexed, hands holding feet"
+    ],
+    "movement": [
+      "Inhale: Lift trunk and legs toward ceiling",
+      "Exhale: Lower trunk and legs to Mat, return to start position"
+    ]
   },
   {
     "id": 35,
     "title_en": "Leg Pull Front",
     "title_fr": "Leg Pull Front",
-    "description_en": "",
+    "description_en": "Objectives:\n• Pelvic lumbar stabilization\n• Hip extensor control\n• Scapular stabilization\n• Trunk stabilization\n\nSetup:\n• Starting in Front Support Position (page 38), one leg lifted slightly off Mat, foot plantarflexed\n\nMovement:\n• Exhale: Lift leg\n• Inhale: Lower leg\n• Change leg after 5 repetitions\n\nCues:\n• Keep body in straight diagonal line\n• Keep pelvis in neutral position or slight posterior tilt\n• Maintain scapular stabilization\n• Focus on hip disassociation when lifting and lowering leg",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Pull_Front.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Pull_Front.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep body in straight diagonal line",
+      "Keep pelvis in neutral position or slight posterior tilt",
+      "Maintain scapular stabilization",
+      "Focus on hip disassociation when lifting and lowering leg"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip extensor control",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Front Support Position (page 38), one leg lifted slightly off Mat, foot plantarflexed"
+    ],
+    "movement": [
+      "Exhale: Lift leg",
+      "Inhale: Lower leg",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 36,
     "title_en": "Leg Pull Black",
     "title_fr": "Leg Pull Black",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip extensor strength\n• Hip flexor control\n• Shoulder extensor strength\n• Trunk stabilization\n\nSetup:\n• Starting in Back Support position (page 39)\n\nMovement:\n• Exhale: Lift leg\n• Inhale: Lower leg\n• Change leg after 5 repetitions\n\nCues:\n• Keep spinal extensors engaged\n• Keep head aligned with spine\n• Focus on hip disassociation when lifting and lowering leg\n• Keep body in straight diagonal line\n\nPrecautions:\n⚠️ Shoulder Impingement",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Pull_Back.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Leg_Pull_Back.mp4",
+    "precautions": [
+      "Shoulder Impingement"
+    ],
+    "cues": [
+      "Keep spinal extensors engaged",
+      "Keep head aligned with spine",
+      "Focus on hip disassociation when lifting and lowering leg",
+      "Keep body in straight diagonal line"
+    ],
+    "objectives": [
+      "Hip extensor strength",
+      "Hip flexor control",
+      "Shoulder extensor strength",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Back Support position (page 39)"
+    ],
+    "movement": [
+      "Exhale: Lift leg",
+      "Inhale: Lower leg",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 37,
     "title_en": "Teaser Prep",
     "title_fr": "Teaser Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Hip flexor strength\n• Shoulder flexor control\n• Shoulder extensor contorl\n\nSetup:\n• Lying supine, coccyx on edge of step, arms straight and overhead, palms facing each other, legs straight and together, feet plantarflexed, body on diagonal line\n\nMovement:\n• Exhale: Lift arms, head and chest up and forward, simultaneously lift legs to perpendicular position\n• Inhale: Lower arms, head, chest and legs, return to start position\n\nCues:\n• Lift legs perpendicular to floor, arms parallel to floor\n• Engage abdominals prior to lifting legs\n• Bring trunk close to legs to form pike position\n• Allow lower back to sink into step of barrel",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Step+Barrel+Teaser+Prep+1080.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Step+Barrel+Teaser+Prep+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Lift legs perpendicular to floor, arms parallel to floor",
+      "Engage abdominals prior to lifting legs",
+      "Bring trunk close to legs to form pike position",
+      "Allow lower back to sink into step of barrel"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip flexor strength",
+      "Shoulder flexor control",
+      "Shoulder extensor contorl"
+    ],
+    "setup": [
+      "Lying supine, coccyx on edge of step, arms straight and overhead, palms facing each other, legs straight and together, feet plantarflexed, body on diagonal line"
+    ],
+    "movement": [
+      "Exhale: Lift arms, head and chest up and forward, simultaneously lift legs to perpendicular position",
+      "Inhale: Lower arms, head, chest and legs, return to start position"
+    ]
   },
   {
     "id": 38,
     "title_en": "Hamstring Pull 2",
     "title_fr": "Hamstring Pull 2",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Pelvic lumbar stabilization\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n\nSetup:\n• Starting in Hamstring Pull 1 position (page 41), fingers interlaced behind head\n\nMovement:\n• Exhale: Lower one leg to Mat, lift other leg toward chest (2 pulses)\n• Inhale: Switch legs (2 pulses)\n\nCues:\n• Support head with hands\n• Maintain stability of trunk and pelvis as legs change\n• Anchor bottom leg on Mat and keep stable (no pulses)\n• Maintain consistent height of trunk\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Total Hip Replacement\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_2.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_2.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Total Hip Replacement",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Support head with hands",
+      "Maintain stability of trunk and pelvis as legs change",
+      "Anchor bottom leg on Mat and keep stable (no pulses)",
+      "Maintain consistent height of trunk"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Pelvic lumbar stabilization",
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "setup": [
+      "Starting in Hamstring Pull 1 position (page 41), fingers interlaced behind head"
+    ],
+    "movement": [
+      "Exhale: Lower one leg to Mat, lift other leg toward chest (2 pulses)",
+      "Inhale: Switch legs (2 pulses)"
+    ]
   },
   {
     "id": 39,
     "title_en": "Hamstring Pull 3",
     "title_fr": "Hamstring Pull 3",
-    "description_en": "",
+    "description_en": "Objectives:\n• Abdominal strength with oblique emphasis\n• Pelvic stabilization\n\nSetup:\n• Starting in a  Hamstring Pull 2 position\n\nMovement:\n• Exhale: reach one leg to the mat, reach the other leg toward the chest , rotating trunk, two pulses\n• Inhale: switch\n\nCues:\n• Keep elbows wide\n• Anchor bottom leg on mat and keep stable (no pulses)\n• Maintain stability of trunk, pelvis and upper girdle as legs change\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Total Hip Replacement\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_3.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hamstring_Pull_3.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Total Hip Replacement",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep elbows wide",
+      "Anchor bottom leg on mat and keep stable (no pulses)",
+      "Maintain stability of trunk, pelvis and upper girdle as legs change"
+    ],
+    "objectives": [
+      "Abdominal strength with oblique emphasis",
+      "Pelvic stabilization"
+    ],
+    "setup": [
+      "Starting in a  Hamstring Pull 2 position"
+    ],
+    "movement": [
+      "Exhale: reach one leg to the mat, reach the other leg toward the chest , rotating trunk, two pulses",
+      "Inhale: switch"
+    ]
   },
   {
     "id": 40,
     "title_en": "Shoulder Bridge",
     "title_fr": "Shoulder Bridge",
-    "description_en": "",
+    "description_en": "Objectives:\n• Pelvic lumbar stabilization\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n\nSetup:\n• Starting in up phase of Pelvic Curl (page 15), one leg straight, foot plantarflexed, reaching toward ceiling\n\nMovement:\n• Exhale: Lower leg\n• Inhale: Lift leg, dorsiflex foot\n• Change leg after 5 repetitions\n\nCues:\n• Stretch front of straight leg during lowering phase\n• Stretch back of straight leg during lifting phase\n• Maintain consistent height of pelvis\n• Bias toward posterior tilt of pelvis\n• Keep pelvis level\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Inversion (HBP, Glaucoma, Reflux)",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Shoulder_Bridge.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Shoulder_Bridge.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Inversion (HBP, Glaucoma, Reflux)"
+    ],
+    "cues": [
+      "Stretch front of straight leg during lowering phase",
+      "Stretch back of straight leg during lifting phase",
+      "Maintain consistent height of pelvis",
+      "Bias toward posterior tilt of pelvis",
+      "Keep pelvis level"
+    ],
+    "objectives": [
+      "Pelvic lumbar stabilization",
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "setup": [
+      "Starting in up phase of Pelvic Curl (page 15), one leg straight, foot plantarflexed, reaching toward ceiling"
+    ],
+    "movement": [
+      "Exhale: Lower leg",
+      "Inhale: Lift leg, dorsiflex foot",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 41,
     "title_en": "Control Balance",
     "title_fr": "Control Balance",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip extensor control\n• Trunk stabilization\n\nSetup:\n• Starting in Roll Over position (page 42), feet dorsiflexed and anchored on Mat, arms straight and overhead, hands holding feet (or calves)\n\nMovement:\n• Exhale: Lift one leg toward ceiling (2 pulses)\n• Inhale: Switch legs\n• Exhale: Lift opposite leg toward ceiling (2 pulses)\n• Inhale: Switch legs\n\nCues:\n• Keep weight on shoulder girdle\n• Minimize weight on cervical spine\n• Switch legs simultaneously\n• Maintain pelvic stabilization as legs change\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Total Hip Replacement\n⚠️ Shoulder Impingement\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Control_Balance.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Control_Balance.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Total Hip Replacement",
+      "Shoulder Impingement",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep weight on shoulder girdle",
+      "Minimize weight on cervical spine",
+      "Switch legs simultaneously",
+      "Maintain pelvic stabilization as legs change"
+    ],
+    "objectives": [
+      "Hip extensor control",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Roll Over position (page 42), feet dorsiflexed and anchored on Mat, arms straight and overhead, hands holding feet (or calves)"
+    ],
+    "movement": [
+      "Exhale: Lift one leg toward ceiling (2 pulses)",
+      "Inhale: Switch legs",
+      "Exhale: Lift opposite leg toward ceiling (2 pulses)",
+      "Inhale: Switch legs"
+    ]
   },
   {
     "id": 42,
     "title_en": "Jackknife",
     "title_fr": "Jackknife",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal articulation\n• Hip extensor control\n• Spinal extensor control\n• Shoulder extensor control\n\nSetup:\n• Lying supine in front of Wunda Chair in Roll Over position (page 42 Mat MAWB), arms straight, shoulder width apart,  hands holding pedal, palms facing up\n• Resistance: light\n\nMovement:\n• Inhale: Lift legs, perpendicular to Mat\n• Exhale: Roll over\n• Inhale: Lower legs, lift legs toward ceiling, body reaching vertical line (as close as possible)\n• Exhale: Roll down, feet opposite face, return to start position\n\nCues:\n• Utilize hip, back, and shoulder extensors to achieve vertical line",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Wunda_Chair_Jack_Knife.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Wunda_Chair_Jack_Knife.mp4",
+    "precautions": [],
+    "cues": [
+      "Utilize hip, back, and shoulder extensors to achieve vertical line"
+    ],
+    "objectives": [
+      "Spinal articulation",
+      "Hip extensor control",
+      "Spinal extensor control",
+      "Shoulder extensor control"
+    ],
+    "setup": [
+      "Lying supine in front of Wunda Chair in Roll Over position (page 42 Mat MAWB), arms straight, shoulder width apart,  hands holding pedal, palms facing up",
+      "Resistance: light"
+    ],
+    "movement": [
+      "Inhale: Lift legs, perpendicular to Mat",
+      "Exhale: Roll over",
+      "Inhale: Lower legs, lift legs toward ceiling, body reaching vertical line (as close as possible)",
+      "Exhale: Roll down, feet opposite face, return to start position"
+    ]
   },
   {
     "id": 43,
     "title_en": "Hip Circles Prep",
     "title_fr": "Hip Circles Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor control\n• Spinal rotator control\n• Hip flexor control\n\nSetup:\n• Sitting in V position, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing away from body, legs straight and together on diagonal line, feet plantarflexed\n\nMovement:\n• Inhale: Move legs to one side\n• Exhale: Circle legs down and around to opposite side, return to start position\n• Change direction after 5 repetitions\n\nCues:\n• Move pelvis and legs as one unit\n• Keep legs together\n• Initiate movement with spinal rotators\n• Maintain pelvic lumbar stabilization (bend knees if necessary)\n\nPrecautions:\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Total Hip Replacement\n⚠️ Shoulder Impingement",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hip_Circles_Prep.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hip_Circles_Prep.mp4",
+    "precautions": [
+      "Stenosis - Spondylolisthesis",
+      "Total Hip Replacement",
+      "Shoulder Impingement"
+    ],
+    "cues": [
+      "Move pelvis and legs as one unit",
+      "Keep legs together",
+      "Initiate movement with spinal rotators",
+      "Maintain pelvic lumbar stabilization (bend knees if necessary)"
+    ],
+    "objectives": [
+      "Spinal flexor control",
+      "Spinal rotator control",
+      "Hip flexor control"
+    ],
+    "setup": [
+      "Sitting in V position, arms straight and parallel, hands placed on Mat behind pelvis, fingers facing away from body, legs straight and together on diagonal line, feet plantarflexed"
+    ],
+    "movement": [
+      "Inhale: Move legs to one side",
+      "Exhale: Circle legs down and around to opposite side, return to start position",
+      "Change direction after 5 repetitions"
+    ]
   },
   {
     "id": 44,
     "title_en": "Side Kick Kneeling",
     "title_fr": "Side Kick Kneeling",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n\nSetup:\n• Kneeling on one knee, shoulder over wrist, fingers facing away from body, top leg lifted to hip height (or higher), fingers touching behind head\n\nMovement:\n• Exhale: Swing top leg forward, dorsiflex foot (2 pulses)\n• Inhale: Swing top leg back, plantarflex foot (2 pulses)\n• Change leg after 5 repetitions\n\nCues:\n• Maintain neutral pelvis (as close as possible)\n• Maintain stable trunk\n• Avoid sinking into supporting shoulder and rib cage\n• Keep head aligned with spine\n\nPrecautions:\n⚠️ Shoulder Impingement",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Kick_Kneeling.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Kick_Kneeling.mp4",
+    "precautions": [
+      "Shoulder Impingement"
+    ],
+    "cues": [
+      "Maintain neutral pelvis (as close as possible)",
+      "Maintain stable trunk",
+      "Avoid sinking into supporting shoulder and rib cage",
+      "Keep head aligned with spine"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch"
+    ],
+    "setup": [
+      "Kneeling on one knee, shoulder over wrist, fingers facing away from body, top leg lifted to hip height (or higher), fingers touching behind head"
+    ],
+    "movement": [
+      "Exhale: Swing top leg forward, dorsiflex foot (2 pulses)",
+      "Inhale: Swing top leg back, plantarflex foot (2 pulses)",
+      "Change leg after 5 repetitions"
+    ]
   },
   {
     "id": 45,
     "title_en": "Side Bend",
     "title_fr": "Side Bend",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal lateral flexor strength\n• Scapular stabilization\n• Shoulder strength\n\nSetup:\n• Sitting sideways, weight on one side of pelvis and supporting arm, legs bent, top leg in front of bottom leg, other arm down by side\n\nMovement:\n• Inhale: Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line\n• Exhale: Lift pelvis higher toward ceiling, transferring top arm overhead\n• Inhale: Return to diagonal line\n• Exhale: Lower body, return to start position\n• Change side after 5 repetitions\n\nCues:\n• Keep legs together and weight on foot of top leg\n• Keep bottom foot plantarflexed and resting on Mat\n• Maximize use of lateral flexors and minimize use of legs\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Shoulder Impingement",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Bend.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Side_Bend.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Stenosis - Spondylolisthesis",
+      "Shoulder Impingement"
+    ],
+    "cues": [
+      "Keep legs together and weight on foot of top leg",
+      "Keep bottom foot plantarflexed and resting on Mat",
+      "Maximize use of lateral flexors and minimize use of legs"
+    ],
+    "objectives": [
+      "Spinal lateral flexor strength",
+      "Scapular stabilization",
+      "Shoulder strength"
+    ],
+    "setup": [
+      "Sitting sideways, weight on one side of pelvis and supporting arm, legs bent, top leg in front of bottom leg, other arm down by side"
+    ],
+    "movement": [
+      "Inhale: Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line",
+      "Exhale: Lift pelvis higher toward ceiling, transferring top arm overhead",
+      "Inhale: Return to diagonal line",
+      "Exhale: Lower body, return to start position",
+      "Change side after 5 repetitions"
+    ]
   },
   {
     "id": 46,
     "title_en": "Swan Dive Prep",
     "title_fr": "Swan Dive Prep",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor control\n• Spinal flexor control\n\nSetup:\n• Lying prone, elbows close to sides of body, forearms pressing into Mat\n\nMovement:\n• Inhale: Lift trunk, straighten arms\n• Exhale: Lower trunk, bend arms, simultaneoulsy lift legs off Mat\n\nCues:\n• Maintain abdominal engagement throughout\n• Lift trunk as high as possible prior to lifting forearms and straightening arms\n• Keep elbows close to sides of body\n• Maintain scapular stabilization\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Stenosis - Spondylolisthesis",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Intermediate",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swan_Dive_Prep.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swan_Dive_Prep.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Stenosis - Spondylolisthesis"
+    ],
+    "cues": [
+      "Maintain abdominal engagement throughout",
+      "Lift trunk as high as possible prior to lifting forearms and straightening arms",
+      "Keep elbows close to sides of body",
+      "Maintain scapular stabilization"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Spinal flexor control"
+    ],
+    "setup": [
+      "Lying prone, elbows close to sides of body, forearms pressing into Mat"
+    ],
+    "movement": [
+      "Inhale: Lift trunk, straighten arms",
+      "Exhale: Lower trunk, bend arms, simultaneoulsy lift legs off Mat"
+    ]
   },
   {
     "id": 47,
     "title_en": "Teaser 1",
     "title_fr": "Teaser 1",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal extensor strength\n• Hip flexor strength\n• Shoulder flexor control\n\nSetup:\n• Starting in Teaser 1 position (page 61 Mat MAWB), arms straight and shoulder width apart, hands holding PTBar\n• Resistance: light to medium\n\nMovement:\n• Exhale: Roll down\n• Inhale: Roll up, return to start position\n\nCues:\n• Keep legs at consistent angle\n• Articulate through spine when rolling down and up\n• Use shoulder flexors to assist in establishing V position\n• Keep arms straight",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Cadillac_Teaser_1.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Cadillac_Teaser_1.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs at consistent angle",
+      "Articulate through spine when rolling down and up",
+      "Use shoulder flexors to assist in establishing V position",
+      "Keep arms straight"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor strength",
+      "Hip flexor strength",
+      "Shoulder flexor control"
+    ],
+    "setup": [
+      "Starting in Teaser 1 position (page 61 Mat MAWB), arms straight and shoulder width apart, hands holding PTBar",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: Roll down",
+      "Inhale: Roll up, return to start position"
+    ]
   },
   {
     "id": 48,
     "title_en": "Neck Pull",
     "title_fr": "Neck Pull",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal extensor control\n• Hip flexor control\n• Hip extensor stretch\n\nSetup:\n• Lying supine, hands interlaced behind head, legs straight and together, feet plantarflexed\n\nMovement:\n• Inhale: Lift head and chest\n• Exhale: Roll up, bring trunk over thighs\n• Inhale: Articulate spine to upright position, hinge back\n• Exhale: Roll down, return to start position\n\nCues:\n• Keep elbows wide\n• Avoid pulling on neck when rolling up\n• Hinge trunk back to diagonal line prior to rolling down\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Neck_Pull.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Neck_Pull.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep elbows wide",
+      "Avoid pulling on neck when rolling up",
+      "Hinge trunk back to diagonal line prior to rolling down"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor control",
+      "Hip flexor control",
+      "Hip extensor stretch"
+    ],
+    "setup": [
+      "Lying supine, hands interlaced behind head, legs straight and together, feet plantarflexed"
+    ],
+    "movement": [
+      "Inhale: Lift head and chest",
+      "Exhale: Roll up, bring trunk over thighs",
+      "Inhale: Articulate spine to upright position, hinge back",
+      "Exhale: Roll down, return to start position"
+    ]
   },
   {
     "id": 49,
     "title_en": "Scissors",
     "title_fr": "Scissors",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n• Pelvic lumbar stabilization\n\nSetup:\n• Resting on shoulder girdle and upper arms, arms bent and parallel (as close as possible), hands holding pelvis, back arched, legs straight and together, feet plantarflexed, reaching toward ceiling\n\nMovement:\n• Exhale: Open legs to Scissors position (2 pulses)\n• Inhale: Switch\n\nCues:\n• Maintain pelvic stabilization\n• Pass through the perpendicular position following each repetition\n• Create even V when legs are in Scissors position\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Scissors.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Scissors.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Maintain pelvic stabilization",
+      "Pass through the perpendicular position following each repetition",
+      "Create even V when legs are in Scissors position"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Resting on shoulder girdle and upper arms, arms bent and parallel (as close as possible), hands holding pelvis, back arched, legs straight and together, feet plantarflexed, reaching toward ceiling"
+    ],
+    "movement": [
+      "Exhale: Open legs to Scissors position (2 pulses)",
+      "Inhale: Switch"
+    ]
   },
   {
     "id": 50,
     "title_en": "Bicycle",
     "title_fr": "Bicycle",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip flexor control and stretch\n• Hip extensor control and stretch\n• Pelvic lumbar stabilization\n\nSetup:\n• Starting in Scissors position (page 63)\n• Bend back knee towards Mat\n\nMovement:\n• Exhale: Lower right leg toward Mat, bend right knee to 90 degrees and fex hip bringing leg toward chest, straighten leg to form V position. Simultaneously lower left leg toward mat, create V position, bend left knee to 90 degrees and flex hip bringing leg toward chest, straighten to Scissors position\n• Inhale: Simultaneously lower right leg toward mat, continue with this exact movement pattern of right and left leg while inhaling\n• Repeat entire breath cycle (exhale and inhale) 3 times, reverse direction, repeat 3 times\n\nCues:\n• Maintain pelvic lumbar stabilization\n• Create even V when legs are in Scissors position\n• Avoid externally rotating hip when bending back knee\n• Touch Mat with foot of bent leg in both directions (as close as possible)\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Bicycle.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Bicycle.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Create even V when legs are in Scissors position",
+      "Avoid externally rotating hip when bending back knee",
+      "Touch Mat with foot of bent leg in both directions (as close as possible)"
+    ],
+    "objectives": [
+      "Hip flexor control and stretch",
+      "Hip extensor control and stretch",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Starting in Scissors position (page 63)",
+      "Bend back knee towards Mat"
+    ],
+    "movement": [
+      "Exhale: Lower right leg toward Mat, bend right knee to 90 degrees and fex hip bringing leg toward chest, straighten leg to form V position. Simultaneously lower left leg toward mat, create V position, bend left knee to 90 degrees and flex hip bringing leg toward chest, straighten to Scissors position",
+      "Inhale: Simultaneously lower right leg toward mat, continue with this exact movement pattern of right and left leg while inhaling",
+      "Repeat entire breath cycle (exhale and inhale) 3 times, reverse direction, repeat 3 times"
+    ]
   },
   {
     "id": 51,
     "title_en": "Corkscrew Advanced",
     "title_fr": "Corkscrew Advanced",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal rotator control\n• Spinal flexor control\n• Hip flexor control\n\nSetup:\n• Starting in Roll Over position (page 60), legs overhead\n\nMovement:\n• Inhale: Rotate spine, moving legs to one side\n• Exhale: Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, rotate spine, moving legs to center, return to start position\n• Alternate sides\n\nCues:\n• Keep legs together\n• Move legs and pelvis as one unit\n• Avoid lowering legs beyond diagonal line\n• Initiate rotation to side and back to center with abdominals\n• Maintain connection with barrel",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Corkscrew_Advanced.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Auxiliary_Corkscrew_Advanced.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs together",
+      "Move legs and pelvis as one unit",
+      "Avoid lowering legs beyond diagonal line",
+      "Initiate rotation to side and back to center with abdominals",
+      "Maintain connection with barrel"
+    ],
+    "objectives": [
+      "Spinal rotator control",
+      "Spinal flexor control",
+      "Hip flexor control"
+    ],
+    "setup": [
+      "Starting in Roll Over position (page 60), legs overhead"
+    ],
+    "movement": [
+      "Inhale: Rotate spine, moving legs to one side",
+      "Exhale: Roll down side of trunk, circle legs around, rotate spine, roll up opposite side of trunk, rotate spine, moving legs to center, return to start position",
+      "Alternate sides"
+    ]
   },
   {
     "id": 52,
     "title_en": "Rocking",
     "title_fr": "Rocking",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor control\n• Chest and shoulder stretch\n\nSetup:\n• Starting in lifted position of Rocking Prep (page 48)\n\nMovement:\n• Exhale: Rock forward, lift feet toward ceiling\n• Inhale: Rock back, lift top of head toward ceiling\n\nCues:\n• Initiate rock forward with hip extensor activation\n• Keep head aligned with spine\n• Keep scapulae open and chest wide\n• Maintain consistent shape of body throughout\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Total Hip Replacement\n⚠️ Shoulder Impingement\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rocking.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Rocking.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Total Hip Replacement",
+      "Shoulder Impingement",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Initiate rock forward with hip extensor activation",
+      "Keep head aligned with spine",
+      "Keep scapulae open and chest wide",
+      "Maintain consistent shape of body throughout"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor control",
+      "Chest and shoulder stretch"
+    ],
+    "setup": [
+      "Starting in lifted position of Rocking Prep (page 48)"
+    ],
+    "movement": [
+      "Exhale: Rock forward, lift feet toward ceiling",
+      "Inhale: Rock back, lift top of head toward ceiling"
+    ]
   },
   {
     "id": 53,
     "title_en": "Teaser 2",
     "title_fr": "Teaser 2",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal extensor strength\n• Hip flexor strength\n\nSetup:\n• Starting in Teaser 1 position (page 61)\n\nMovement:\n• Inhale: Lower legs\n• Exhale: Lift legs\n\nCues:\n• Maintain stable trunk throughout\n• Keep shoulders relaxed\n• Keep movement of legs controlled\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Teaser_2.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Teaser_2.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Stenosis - Spondylolisthesis",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Maintain stable trunk throughout",
+      "Keep shoulders relaxed",
+      "Keep movement of legs controlled"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor strength",
+      "Hip flexor strength"
+    ],
+    "setup": [
+      "Starting in Teaser 1 position (page 61)"
+    ],
+    "movement": [
+      "Inhale: Lower legs",
+      "Exhale: Lift legs"
+    ]
   },
   {
     "id": 54,
     "title_en": "Teaser 3",
     "title_fr": "Teaser 3",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal extensor strength\n• Hip flexor strength\n\nSetup:\n• Starting in Teaser 1 position (page 61)\n\nMovement:\n• Exhale: Lower trunk and legs simultaneously, reach arms overhead\n• Inhale: Lift arms, trunk and legs, return to start position\n\nCues:\n• Lower legs to slightly above Mat\n• Articulate through spine when rolling down and rolling up\n• Keep arms at shoulder height prior to reaching overhead following roll down and roll up\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Stenosis - Spondylolisthesis",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Teaser_3.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Teaser_3.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Stenosis - Spondylolisthesis"
+    ],
+    "cues": [
+      "Lower legs to slightly above Mat",
+      "Articulate through spine when rolling down and rolling up",
+      "Keep arms at shoulder height prior to reaching overhead following roll down and roll up"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor strength",
+      "Hip flexor strength"
+    ],
+    "setup": [
+      "Starting in Teaser 1 position (page 61)"
+    ],
+    "movement": [
+      "Exhale: Lower trunk and legs simultaneously, reach arms overhead",
+      "Inhale: Lift arms, trunk and legs, return to start position"
+    ]
   },
   {
     "id": 55,
     "title_en": "Hip Circles",
     "title_fr": "Hip Circles",
-    "description_en": "",
+    "description_en": "Objectives:\n• Abdominal strength with oblique emphasis\n• Hip flexor control\n\nSetup:\n• Balancing in a V position, legs straight and together on a diagonal line, back flat, arms reaching forward\n\nMovement:\n• Inhale: rotate the trunk and pelvis in opposite directions, arms together with trunk and legs together with pelvis\n• Exhale: circle the legs down and around, arms up and around to opposite sides at the same time, return to the starting position\n• \n• Five in one direction, five in opposite direction\n\nCues:\n• Avoid hyperextension of the lumbar spine as the legs circle around\n• Coordinate the movement of the lower body moving in one direction and the upper body moving in the opposite direction\n• Move legs and pelvis as one unit, arms and trunk as one unit (head can move with upper odd or main centered\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hip_Circles.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Hip_Circles.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Avoid hyperextension of the lumbar spine as the legs circle around",
+      "Coordinate the movement of the lower body moving in one direction and the upper body moving in the opposite direction",
+      "Move legs and pelvis as one unit, arms and trunk as one unit (head can move with upper odd or main centered"
+    ],
+    "objectives": [
+      "Abdominal strength with oblique emphasis",
+      "Hip flexor control"
+    ],
+    "setup": [
+      "Balancing in a V position, legs straight and together on a diagonal line, back flat, arms reaching forward"
+    ],
+    "movement": [
+      "Inhale: rotate the trunk and pelvis in opposite directions, arms together with trunk and legs together with pelvis",
+      "Exhale: circle the legs down and around, arms up and around to opposite sides at the same time, return to the starting position",
+      "",
+      "Five in one direction, five in opposite direction"
+    ]
   },
   {
     "id": 56,
     "title_en": "Twist",
     "title_fr": "Twist",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal rotator control\n• Scapular stabilization\n• Shoulder strength\n\nSetup:\n• Starting in Side Bend position (page 59)\n\nMovement:\n• Inhale: Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line\n• Exhale: Lift pelvis toward ceiling, rotate trunk, reach arm under and back\n• Inhale: Return to diagonal line\n• Exhale: Lower body, return to start position\n• Change side after 5 repetitions\n\nCues:\n• Keep legs together and weight on foot of top leg\n• Create pyramid shape when lifting pelvis toward ceiling\n• Maximize use of lateral flexors and minimize use of legs\n• Reach arm back maximizing spinal rotation\n\nPrecautions:\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Shoulder Impingement\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Lateal/Flexion Rotation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Twist.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Twist.mp4",
+    "precautions": [
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Shoulder Impingement",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep legs together and weight on foot of top leg",
+      "Create pyramid shape when lifting pelvis toward ceiling",
+      "Maximize use of lateral flexors and minimize use of legs",
+      "Reach arm back maximizing spinal rotation"
+    ],
+    "objectives": [
+      "Spinal rotator control",
+      "Scapular stabilization",
+      "Shoulder strength"
+    ],
+    "setup": [
+      "Starting in Side Bend position (page 59)"
+    ],
+    "movement": [
+      "Inhale: Lift pelvis, straighten legs, raise top arm to shoulder height, body on diagonal line",
+      "Exhale: Lift pelvis toward ceiling, rotate trunk, reach arm under and back",
+      "Inhale: Return to diagonal line",
+      "Exhale: Lower body, return to start position",
+      "Change side after 5 repetitions"
+    ]
   },
   {
     "id": 57,
     "title_en": "Push Up",
     "title_fr": "Push Up",
-    "description_en": "",
+    "description_en": "Objectives:\n• Elbow extensor strength\n• Scapular stabilization\n• Trunk stabilization\n\nSetup:\n• Starting in Front Support postion (see page 38)\n\nMovement:\n• Inhale: Bend arms\n• Exhale: Straighten arms (repeat), lift pelvis upward, walk hands toward feet, arms straight, transfer weight to feet, roll up\n• Inhale: Pause\n• Exhale: Roll down, walk hands forward, arms straight, return to start position\n\nCues:\n• Keep elbows close to sides of body when bending\n• Maintain scapular stabilization\n• Maintain pelvic lumbar stabilization, bias toward posterior tilt of pelvis",
     "description_fr": "",
     "block": "Bridging/Full Body Intergration",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Push_Up.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Push_Up.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep elbows close to sides of body when bending",
+      "Maintain scapular stabilization",
+      "Maintain pelvic lumbar stabilization, bias toward posterior tilt of pelvis"
+    ],
+    "objectives": [
+      "Elbow extensor strength",
+      "Scapular stabilization",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Front Support postion (see page 38)"
+    ],
+    "movement": [
+      "Inhale: Bend arms",
+      "Exhale: Straighten arms (repeat), lift pelvis upward, walk hands toward feet, arms straight, transfer weight to feet, roll up",
+      "Inhale: Pause",
+      "Exhale: Roll down, walk hands forward, arms straight, return to start position"
+    ]
   },
   {
     "id": 58,
     "title_en": "Swan Dive Prep with Catch",
     "title_fr": "Swan Dive Prep with Catch",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor strength\n• Trunk stabilization\n\nSetup:\n• Setup: Starting in lifted position of Swan Dive Prep (page 60)\n\nMovement:\n• Exhale: Drop trunk forward, place hands under forehead, lift legs toward ceiling\n• Inhale: Lift trunk, lower legs, place hands on Mat, return to start position\n\nCues:\n• Maintain consistent arc shape\n• Engage abdominals throughout\n• Maximize fluidity of movement",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+Swan+Dive+Prep+with+Catch+1080.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+Swan+Dive+Prep+with+Catch+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain consistent arc shape",
+      "Engage abdominals throughout",
+      "Maximize fluidity of movement"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor strength",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Setup: Starting in lifted position of Swan Dive Prep (page 60)"
+    ],
+    "movement": [
+      "Exhale: Drop trunk forward, place hands under forehead, lift legs toward ceiling",
+      "Inhale: Lift trunk, lower legs, place hands on Mat, return to start position"
+    ]
   },
   {
     "id": 59,
     "title_en": "Swan Dive",
     "title_fr": "Swan Dive",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Hip extensor strength\n• Spinal flexor control\n\nSetup:\n• Starting in lifted position of Swan Dive Prep (page 60)\n\nMovement:\n• Exhale: Drop trunk forward, place hands under forehead, lift legs toward ceiling\n• Inhale: Lift trunk, lower legs, reach arms overhead toward ceiling, shoulder width apart\n• Exhale: Drop trunk forward, reach arms overhead in line with shoulders, lift legs toward ceiling\n• Final Inhale: Lift trunk, lower legs, place hands on Mat, arms  straight, return to start position\n\nCues:\n• Maintain consistent arc shape\n• Engage abdominals throughout\n• Maximize fluidity of movement\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Stenosis - Spondylolisthesis\n⚠️ Shoulder Impingement\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swan_Dive.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Swan_Dive.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Stenosis - Spondylolisthesis",
+      "Shoulder Impingement",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Maintain consistent arc shape",
+      "Engage abdominals throughout",
+      "Maximize fluidity of movement"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Hip extensor strength",
+      "Spinal flexor control"
+    ],
+    "setup": [
+      "Starting in lifted position of Swan Dive Prep (page 60)"
+    ],
+    "movement": [
+      "Exhale: Drop trunk forward, place hands under forehead, lift legs toward ceiling",
+      "Inhale: Lift trunk, lower legs, reach arms overhead toward ceiling, shoulder width apart",
+      "Exhale: Drop trunk forward, reach arms overhead in line with shoulders, lift legs toward ceiling",
+      "Final Inhale: Lift trunk, lower legs, place hands on Mat, arms  straight, return to start position"
+    ]
   },
   {
     "id": 60,
     "title_en": "Boomerang",
     "title_fr": "Boomerang",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Spinal extensor strength\n• Hip flexor strength\n\nSetup:\n• Sitting with legs straight and crossed, trunk over legs, arms straight and reaching forward\n\nMovement:\n• Inhale: Roll down, lift legs\n• Exhale: Roll over\n• Inhale: Switch legs\n• Exhale: Roll up into Teaser 1 position (page 61), legs crossed\n• Inhale: Circle arms around, interlace fingers behind back\n• Exhale: Lower legs, reach trunk over legs, circle arms around and forward, return to start position\n\nCues:\n• Keep movement fluid\n• Maximize stretch for shoulders and chest\n• Create Boomerang position (BASI Rock) in Chest Lift position, legs lifted\n\nPrecautions:\n⚠️ Pregnancy\n⚠️ Disc Pathology\n⚠️ Osteoporosis\n⚠️ Total Hip Replacement\n⚠️ Shoulder Impingement\n⚠️ Inversion (HBP, Glaucoma, Reflux)\n⚠️ Adverse Neural Tension",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Boomerang.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Mat_Boomerang.mp4",
+    "precautions": [
+      "Pregnancy",
+      "Disc Pathology",
+      "Osteoporosis",
+      "Total Hip Replacement",
+      "Shoulder Impingement",
+      "Inversion (HBP, Glaucoma, Reflux)",
+      "Adverse Neural Tension"
+    ],
+    "cues": [
+      "Keep movement fluid",
+      "Maximize stretch for shoulders and chest",
+      "Create Boomerang position (BASI Rock) in Chest Lift position, legs lifted"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Spinal extensor strength",
+      "Hip flexor strength"
+    ],
+    "setup": [
+      "Sitting with legs straight and crossed, trunk over legs, arms straight and reaching forward"
+    ],
+    "movement": [
+      "Inhale: Roll down, lift legs",
+      "Exhale: Roll over",
+      "Inhale: Switch legs",
+      "Exhale: Roll up into Teaser 1 position (page 61), legs crossed",
+      "Inhale: Circle arms around, interlace fingers behind back",
+      "Exhale: Lower legs, reach trunk over legs, circle arms around and forward, return to start position"
+    ]
   },
   {
     "id": 61,
     "title_en": "Crab",
     "title_fr": "Crab",
-    "description_en": "",
+    "description_en": "Objectives:\n• Trunk stabilization\n• Lower back stretch\n• Neck stretch\n\nSetup:\n• Setup: Sitting in balanced position, trunk in C curve position, legs bent ankles crossed, feet plantarflexed, arms reaching around legs, hands holding feet, thumbs underfoot, fingers on top\n\nMovement:\n• Exhale: Roll back\n• Inhale: Straighten legs, switch legs, bend knees\n• Exhale: Roll forward over legs, place head on Mat, transfer weight toward head\n• Inhale: Sit back on sit bones, return to start position\n\nCues:\n• Maximize spinal flexion in lumbar spine\n• Maintain consistent C curve position\n• Push hands into Mat when rolling over legs\n• Transfer weight cautiously onto head",
     "description_fr": "",
     "block": "Spinal Articulation",
     "level": "Advanced",
     "hidden": false,
-    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Crab.mp4"
+    "video": "https://s3.amazonaws.com/pi.exercises/videos/Mat_Crab.mp4",
+    "precautions": [],
+    "cues": [
+      "Maximize spinal flexion in lumbar spine",
+      "Maintain consistent C curve position",
+      "Push hands into Mat when rolling over legs",
+      "Transfer weight cautiously onto head"
+    ],
+    "objectives": [
+      "Trunk stabilization",
+      "Lower back stretch",
+      "Neck stretch"
+    ],
+    "setup": [
+      "Setup: Sitting in balanced position, trunk in C curve position, legs bent ankles crossed, feet plantarflexed, arms reaching around legs, hands holding feet, thumbs underfoot, fingers on top"
+    ],
+    "movement": [
+      "Exhale: Roll back",
+      "Inhale: Straighten legs, switch legs, bend knees",
+      "Exhale: Roll forward over legs, place head on Mat, transfer weight toward head",
+      "Inhale: Sit back on sit bones, return to start position"
+    ]
   },
   {
     "id": 62,
     "title_en": "Gluteals Side Lying Series",
     "title_fr": "Gluteals Side Lying Series",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip abductor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, top hand placed on Mat, elbow bent, bottom hip and knee at 90 degrees flexion, top leg straight, hip height in line with trunk, hip internally rotated\n• Resistance: light to medium\n\nMovement:\n• Exhale: Lift leg\n• Inhale Lower leg, return to start position\n\nCues:\n• Keep knee slightly bent\n• Keep pelvis stable as leg moves down and up\n• Keep Leg and foot relaxed, toes directed toward Mat",
     "description_fr": "",
     "block": "Leg Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+LW+Side+Leg+Lift+1080.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+LW+Side+Leg+Lift+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep knee slightly bent",
+      "Keep pelvis stable as leg moves down and up",
+      "Keep Leg and foot relaxed, toes directed toward Mat"
+    ],
+    "objectives": [
+      "Hip abductor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying on side in neutral spine position, bottom arm straight and palm facing up, head resting on arm, pelvis perpendicular to Mat, top hand placed on Mat, elbow bent, bottom hip and knee at 90 degrees flexion, top leg straight, hip height in line with trunk, hip internally rotated",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: Lift leg",
+      "Inhale Lower leg, return to start position"
+    ]
   },
   {
     "id": 63,
     "title_en": "Gluteals Kneeling Series",
     "title_fr": "Gluteals Kneeling Series",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip extensor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips\n• Resistance: light to medium\n\nMovement:\n• Exhale: lift leg\n• Inhale: Lower leg, return to start position\n\nCues:\n• Focus on hip disassociation\n• Maintain pelvic stabilization with emphasis on avoiding anterior tilt and rotation of pelvis\n• Reach toes to ceiling\n• Maintain consistent 90 degree angle in knee of moving leg",
     "description_fr": "",
     "block": "Leg Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Ankle_Weights_Hip_Extension_Bent_Knee_Gluteals_Kneeling_Series.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Ankle_Weights_Hip_Extension_Bent_Knee_Gluteals_Kneeling_Series.mp4",
+    "precautions": [],
+    "cues": [
+      "Focus on hip disassociation",
+      "Maintain pelvic stabilization with emphasis on avoiding anterior tilt and rotation of pelvis",
+      "Reach toes to ceiling",
+      "Maintain consistent 90 degree angle in knee of moving leg"
+    ],
+    "objectives": [
+      "Hip extensor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Kneeling in quadruped position, neutral spine, wrists under shoulders, knees under hips",
+      "Resistance: light to medium"
+    ],
+    "movement": [
+      "Exhale: lift leg",
+      "Inhale: Lower leg, return to start position"
+    ]
   },
   {
     "id": 64,
     "title_en": "Chest Lift (Magic Circle)",
     "title_fr": "Chest Lift (Magic Circle)",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal flexor strength\n• Hip adductor strength\n• Shoulder horizontal adductor strength\n\nSetup:\n• Lying supine in neutral spine position, knees bent, legs parallel, feet flat on Mat, one Magic Circle between knees, other Magic Circle between hands, arms straight and perpendicular\n\nMovement:\n• Exhale: Lift head and chest, press legs and arms together\n• Inhale: Pause\n• Exhale: Lower head and chest, open legs and arms, return to start position\n• Inhale: Pause\n• Pause\n\nCues:\n• Maintain pelvic lumbar stabilization\n• Keep head aligned with spine when lifting into spinal flexion\n• Maintain tension in both circles, increase tension when lifting\n\nPrecautions:\n⚠️ Pregnancy",
     "description_fr": "",
     "block": "Abdominal Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Chest_Lift.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Chest_Lift.mp4",
+    "precautions": [
+      "Pregnancy"
+    ],
+    "cues": [
+      "Maintain pelvic lumbar stabilization",
+      "Keep head aligned with spine when lifting into spinal flexion",
+      "Maintain tension in both circles, increase tension when lifting"
+    ],
+    "objectives": [
+      "Spinal flexor strength",
+      "Hip adductor strength",
+      "Shoulder horizontal adductor strength"
+    ],
+    "setup": [
+      "Lying supine in neutral spine position, knees bent, legs parallel, feet flat on Mat, one Magic Circle between knees, other Magic Circle between hands, arms straight and perpendicular"
+    ],
+    "movement": [
+      "Exhale: Lift head and chest, press legs and arms together",
+      "Inhale: Pause",
+      "Exhale: Lower head and chest, open legs and arms, return to start position",
+      "Inhale: Pause",
+      "Pause"
+    ]
   },
   {
     "id": 65,
     "title_en": "Arms Series (Magic Circle)",
     "title_fr": "Arms Series (Magic Circle)",
-    "description_en": "",
+    "description_en": "Objectives:\n• Shoulder horizontal adductor strength\n• Scapular stabilization\n\nSetup:\n• Standing or sitting, or kneeling, hands holding Magic Circle in front of chest, shoulder height, arms bent\n\nMovement:\n• Exhale: Press arms together\n• Inhale: Open arms\n\nCues:\n• Maintain upright trunk\n• Maintain scapular stabilization\n• Maintain tension in circle, increase tension when pressing arms together",
     "description_fr": "",
     "block": "Arm Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Arms_Bent.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Arms_Bent.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain upright trunk",
+      "Maintain scapular stabilization",
+      "Maintain tension in circle, increase tension when pressing arms together"
+    ],
+    "objectives": [
+      "Shoulder horizontal adductor strength",
+      "Scapular stabilization"
+    ],
+    "setup": [
+      "Standing or sitting, or kneeling, hands holding Magic Circle in front of chest, shoulder height, arms bent"
+    ],
+    "movement": [
+      "Exhale: Press arms together",
+      "Inhale: Open arms"
+    ]
   },
   {
     "id": 66,
     "title_en": "Sitting Series (Magic Circle)",
     "title_fr": "Sitting Series (Magic Circle)",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip adductor strength\n• Trunk stabilization\n\nSetup:\n• Starting in Ankles position (page 89), Magic Circle above knees, perpendicular to floor\n\nMovement:\n• Exhale: Press legs together\n• Inhale: Open legs\n\nCues:\n• Maintain trunk stabilization\n• Maintain tension in circle, increase tension when pressing legs together",
     "description_fr": "",
     "block": "Leg Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Above_Knees_Sitting.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Above_Knees_Sitting.mp4",
+    "precautions": [],
+    "cues": [
+      "Maintain trunk stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Trunk stabilization"
+    ],
+    "setup": [
+      "Starting in Ankles position (page 89), Magic Circle above knees, perpendicular to floor"
+    ],
+    "movement": [
+      "Exhale: Press legs together",
+      "Inhale: Open legs"
+    ]
   },
   {
     "id": 67,
     "title_en": "Supine Series (Magic Circle)",
     "title_fr": "Supine Series (Magic Circle)",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip adductor strength\n• Pelvic lumbar stabilization\n\nSetup:\n• Starting in Knees position (page 93), legs straight on diagonal line, Magic Circle above ankles\n\nMovement:\n• Exhale: Press legs together\n• Inhale: Open legs\n\nCues:\n• Keep legs at consistent height\n• Maintain pelvic lumbar stabilization\n• Maintain tension in circle, increase tension when pressing legs together",
     "description_fr": "",
     "block": "Leg Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Ankles_Supine_Series.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Ankles_Supine_Series.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs at consistent height",
+      "Maintain pelvic lumbar stabilization",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Starting in Knees position (page 93), legs straight on diagonal line, Magic Circle above ankles"
+    ],
+    "movement": [
+      "Exhale: Press legs together",
+      "Inhale: Open legs"
+    ]
   },
   {
     "id": 68,
     "title_en": "Prone Series (Magic Circle)",
     "title_fr": "Prone Series (Magic Circle)",
-    "description_en": "",
+    "description_en": "Objectives:\n• Hip adductor strength\n• Hip extensor strength\n• Spinal extensor control\n• Pelvic lumbar stabilization\n\nSetup:\n• Lying prone, knees bent at 90 degrees, thighs lifted off Mat, feet plantarflexed, Magic Circle above ankles, head resting on back of hands\n\nMovement:\n• Exhale: Press legs together\n• Inhale: Open legs\n\nCues:\n• Reach feet toward ceiling\n• Keep hips extended\n• Maintain abdominal support to avoid pressure on lower back\n• Maintain tension in circle, increase tension when pressing legs together\n\nPrecautions:\n⚠️ Pregnancy",
     "description_fr": "",
     "block": "Leg Work",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Ankles_Bent_Knees_Prone_Series.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/Magic_Circle_Ankles_Bent_Knees_Prone_Series.mp4",
+    "precautions": [
+      "Pregnancy"
+    ],
+    "cues": [
+      "Reach feet toward ceiling",
+      "Keep hips extended",
+      "Maintain abdominal support to avoid pressure on lower back",
+      "Maintain tension in circle, increase tension when pressing legs together"
+    ],
+    "objectives": [
+      "Hip adductor strength",
+      "Hip extensor strength",
+      "Spinal extensor control",
+      "Pelvic lumbar stabilization"
+    ],
+    "setup": [
+      "Lying prone, knees bent at 90 degrees, thighs lifted off Mat, feet plantarflexed, Magic Circle above ankles, head resting on back of hands"
+    ],
+    "movement": [
+      "Exhale: Press legs together",
+      "Inhale: Open legs"
+    ]
   },
   {
     "id": 69,
     "title_en": "Swan 1",
     "title_fr": "Swan 1",
-    "description_en": "",
+    "description_en": "Objectives:\n• Spinal extensor strength\n• Shoulder flexor strength\n• Spinal flexor control\n\nSetup:\n• Lying prone, arms straight overhead, Magic Circle between hands, parallel to Mat\n\nMovement:\n• Inhale: Lift trunk\n• Exhale: Lower trunk, return to start position\n\nCues:\n• Keep legs together (as close as possible)\n• Move arms and trunk as one unit\n• Keep head between arms\n• Keep legs on Mat\n• Maintain tension in circle",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+MC+Swan+1+1080.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+MC+Swan+1+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs together (as close as possible)",
+      "Move arms and trunk as one unit",
+      "Keep head between arms",
+      "Keep legs on Mat",
+      "Maintain tension in circle"
+    ],
+    "objectives": [
+      "Spinal extensor strength",
+      "Shoulder flexor strength",
+      "Spinal flexor control"
+    ],
+    "setup": [
+      "Lying prone, arms straight overhead, Magic Circle between hands, parallel to Mat"
+    ],
+    "movement": [
+      "Inhale: Lift trunk",
+      "Exhale: Lower trunk, return to start position"
+    ]
   },
   {
     "id": 70,
     "title_en": "Swan 2",
     "title_fr": "Swan 2",
-    "description_en": "",
+    "description_en": "Objectives:\n• Shoulder extensor strength\n• Shoulder flexor strength\n\nSetup:\n• Starting in Swan 1, Magic Circle between hands, perpendicular to Mat\n\nMovement:\n• Inhale: Lift trunk\n• Exhale: Lower trunk, return to start position\n\nCues:\n• Keep legs together (as close as possible)\n• Move arms and trunk as one unit\n• Keep legs on Mat\n• Maintain tension in circle",
     "description_fr": "",
     "block": "Back Extension",
     "level": "Fundamental",
     "hidden": false,
-    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+MC+Swan+2+1080.mp4"
+    "video": "https://d2gm8j8skzw3j8.cloudfront.net/videos/PI+MC+Swan+2+1080.mp4",
+    "precautions": [],
+    "cues": [
+      "Keep legs together (as close as possible)",
+      "Move arms and trunk as one unit",
+      "Keep legs on Mat",
+      "Maintain tension in circle"
+    ],
+    "objectives": [
+      "Shoulder extensor strength",
+      "Shoulder flexor strength"
+    ],
+    "setup": [
+      "Starting in Swan 1, Magic Circle between hands, perpendicular to Mat"
+    ],
+    "movement": [
+      "Inhale: Lift trunk",
+      "Exhale: Lower trunk, return to start position"
+    ]
   }
 ]

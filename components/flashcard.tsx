@@ -80,8 +80,35 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
               </div>
             )}
 
-            {showDescription && (
-              <p className="text-lg text-center max-w-md">{description}</p>
+            {showDescription && description && (
+              <div className="text-sm text-left max-w-md space-y-4">
+                {description.split('\n\n').map((section, sectionIdx) => {
+                  const lines = section.split('\n');
+                  const header = lines[0];
+                  const items = lines.slice(1);
+
+                  // Check if this is a section with a header
+                  if (header.endsWith(':')) {
+                    const isPrecaution = header.toLowerCase().includes('precaution');
+                    return (
+                      <div key={sectionIdx} className={isPrecaution ? 'border-l-4 border-red-500 pl-3' : ''}>
+                        <h4 className={`font-semibold mb-2 ${isPrecaution ? 'text-red-600' : 'text-gray-900'}`}>
+                          {header}
+                        </h4>
+                        <ul className="space-y-1.5">
+                          {items.map((item, itemIdx) => (
+                            <li key={itemIdx} className={`flex items-start ${isPrecaution ? 'text-red-600' : 'text-gray-700'}`}>
+                              <span className="mr-2 mt-0.5 flex-shrink-0">{item.startsWith('⚠️') ? '⚠️' : '•'}</span>
+                              <span>{item.replace(/^[•⚠️]\s*/, '')}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  }
+                  return null;
+                })}
+              </div>
             )}
           </div>
         </CardContent>

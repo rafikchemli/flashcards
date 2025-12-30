@@ -9,6 +9,11 @@ export interface Exercise {
   hidden: boolean
   youtube_url?: string
   video?: string
+  precautions?: string[]
+  cues?: string[]
+  objectives?: string[]
+  setup?: string[]
+  movement?: string[]
 }
 
 export type Language = "en" | "fr"
