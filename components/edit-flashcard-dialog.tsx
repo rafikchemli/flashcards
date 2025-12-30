@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import type { Exercise } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import {
@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
+import { getLocalExercises } from "@/lib/utils"
 
 interface EditFlashcardDialogProps {
   exercise: Exercise
@@ -29,6 +30,17 @@ export default function EditFlashcardDialog({
   onSave,
 }: EditFlashcardDialogProps) {
   const [formData, setFormData] = useState<Exercise>(exercise)
+  const [availableBlocks, setAvailableBlocks] = useState<string[]>([])
+  const [availableLevels, setAvailableLevels] = useState<string[]>([])
+
+  useEffect(() => {
+    // Get all unique blocks and levels from localStorage
+    const exercises = getLocalExercises()
+    const blocks = Array.from(new Set(exercises.map((ex) => ex.block))).sort()
+    const levels = Array.from(new Set(exercises.map((ex) => ex.level))).sort()
+    setAvailableBlocks(blocks)
+    setAvailableLevels(levels)
+  }, [open])
 
   const handleSave = () => {
     onSave(formData)
@@ -65,17 +77,31 @@ export default function EditFlashcardDialog({
               <Label htmlFor="block">Block</Label>
               <Input
                 id="block"
+                list="blocks-list"
                 value={formData.block}
                 onChange={(e) => setFormData({ ...formData, block: e.target.value })}
+                placeholder="Select or type new block"
               />
+              <datalist id="blocks-list">
+                {availableBlocks.map((block) => (
+                  <option key={block} value={block} />
+                ))}
+              </datalist>
             </div>
             <div className="grid gap-2">
               <Label htmlFor="level">Level</Label>
               <Input
                 id="level"
+                list="levels-list"
                 value={formData.level}
                 onChange={(e) => setFormData({ ...formData, level: e.target.value })}
+                placeholder="Select or type new level"
               />
+              <datalist id="levels-list">
+                {availableLevels.map((level) => (
+                  <option key={level} value={level} />
+                ))}
+              </datalist>
             </div>
           </div>
         </div>
