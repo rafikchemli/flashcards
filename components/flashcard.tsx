@@ -17,6 +17,7 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
   const [showDescription, setShowDescription] = useState(false)
   const [showEditDialog, setShowEditDialog] = useState(false)
   const [showVideo, setShowVideo] = useState(false)
+  const [videoLoading, setVideoLoading] = useState(false)
 
   const title = exercise.title_en
   const description = exercise.description_en
@@ -28,7 +29,18 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
   useEffect(() => {
     setShowVideo(false)
     setShowDescription(false)
+    setVideoLoading(false)
   }, [exercise.id])
+
+  // Set loading when video is toggled on
+  useEffect(() => {
+    if (showVideo) {
+      setVideoLoading(true)
+      // Auto-hide loader after 2 seconds as fallback
+      const timer = setTimeout(() => setVideoLoading(false), 2000)
+      return () => clearTimeout(timer)
+    }
+  }, [showVideo])
 
   const handleSave = (updatedExercise: Exercise) => {
     onUpdate?.(updatedExercise)
@@ -51,7 +63,12 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
 
           <div className="w-full space-y-4 flex flex-col items-center">
             {showVideo && videoId && (
-              <div className="w-full max-w-md aspect-video">
+              <div className="w-full max-w-md aspect-video relative">
+                {videoLoading && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-lg z-10">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
+                  </div>
+                )}
                 <iframe
                   width="100%"
                   height="100%"
@@ -61,18 +78,27 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="rounded-lg"
+                  onLoad={() => setVideoLoading(false)}
                 />
               </div>
             )}
 
-            {showVideo && !videoId && hasDirectVideo && (
-              <div className="w-full max-w-md aspect-video">
+            {showVideo && hasDirectVideo && (
+              <div className="w-full max-w-md aspect-video relative">
+                {videoLoading && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-lg z-10">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
+                  </div>
+                )}
                 <video
                   width="100%"
                   height="100%"
                   controls
                   autoPlay
                   className="rounded-lg"
+                  onLoadedData={() => setVideoLoading(false)}
+                  onWaiting={() => setVideoLoading(true)}
+                  onPlaying={() => setVideoLoading(false)}
                 >
                   <source src={exercise.video} type="video/mp4" />
                   Your browser does not support the video tag.
