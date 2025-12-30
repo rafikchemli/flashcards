@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
+import { Switch } from "@/components/ui/switch"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { getLocalExercises } from "@/lib/utils"
 
@@ -190,6 +191,16 @@ export default function EditFlashcardDialog({
                 </div>
               )}
             </div>
+          </div>
+          <div className="flex items-center space-x-2 pt-2">
+            <Switch
+              checked={formData.hidden}
+              onCheckedChange={(checked) => setFormData({ ...formData, hidden: checked })}
+              id="hidden-toggle"
+            />
+            <Label htmlFor="hidden-toggle" className="text-sm font-medium cursor-pointer">
+              Hide from flashcards
+            </Label>
           </div>
         </div>
         <DialogFooter>
