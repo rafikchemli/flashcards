@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-white">
-      <h1 className="text-4xl font-bold mb-8 text-center">Pilates Instructor Exam Flashcards</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Pilates Instructor Exam Flashcards [DEV]</h1>
       <p className="text-lg text-center mb-12 max-w-md text-gray-600">
         Study your Pilates exercises with this minimalist flashcard application.
       </p>
