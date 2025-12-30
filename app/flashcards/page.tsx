@@ -126,6 +126,30 @@ export default function FlashcardsPage() {
     }
   }
 
+  const handleUpdateExercise = (updatedExercise: Exercise) => {
+    // Get all exercises from localStorage
+    const allExercises = getLocalExercises()
+
+    // Find and update the exercise by ID
+    const updatedAllExercises = allExercises.map((ex) =>
+      ex.id === updatedExercise.id ? updatedExercise : ex
+    )
+
+    // Save to localStorage
+    saveLocalExercises(updatedAllExercises)
+
+    // Update state - preserve current position and progress
+    const updatedExercises = exercises.map((ex) =>
+      ex.id === updatedExercise.id ? updatedExercise : ex
+    )
+    setExercises(updatedExercises)
+
+    const updatedFiltered = filteredExercises.map((ex) =>
+      ex.id === updatedExercise.id ? updatedExercise : ex
+    )
+    setFilteredExercises(updatedFiltered)
+  }
+
   if (isLoading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -258,7 +282,7 @@ export default function FlashcardsPage() {
 
       <div className="flex-1 flex items-center justify-center w-full">
         {filteredExercises.length > 0 ? (
-          <Flashcard exercise={filteredExercises[currentIndex]} />
+          <Flashcard exercise={filteredExercises[currentIndex]} onUpdate={handleUpdateExercise} />
         ) : (
           <div className="w-full max-w-md h-96 flex items-center justify-center border rounded-lg shadow-md bg-white">
             <p className="text-lg text-gray-600 text-center">No exercises found with the selected filters. Please change filters.</p>
