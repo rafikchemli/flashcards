@@ -140,33 +140,57 @@ export default function FlashcardsPage() {
     // Check if the exercise was hidden
     const wasHidden = updatedExercise.hidden && !filteredExercises.find(ex => ex.id === updatedExercise.id)?.hidden
 
-    // Update exercises state (filter out hidden)
-    const updatedExercises = updatedAllExercises.filter((ex) => !ex.hidden)
-    setExercises(updatedExercises)
-
-    // Apply current filters and remove hidden exercises
-    const updatedFiltered = updatedExercises.filter((ex) => {
-      const matchesBlock = selectedBlocks.length > 0 ? selectedBlocks.includes(ex.block) : true
-      const matchesLevel = selectedLevels.length > 0 ? selectedLevels.includes(ex.level) : true
-      return matchesBlock && matchesLevel
-    })
-    setFilteredExercises(updatedFiltered)
-
-    // If the current exercise was hidden, move to next card
-    if (wasHidden && filteredExercises[currentIndex]?.id === updatedExercise.id) {
-      // If there are more cards after this one, stay at same index (which is now the next card)
-      // If this was the last card, go to previous card
-      if (currentIndex >= updatedFiltered.length) {
-        setCurrentIndex(Math.max(0, updatedFiltered.length - 1))
-      }
-      // Current index stays the same, but now points to the next card
-    } else if (wasHidden) {
-      // If a different card was hidden, adjust currentIndex if needed
+    if (wasHidden) {
+      // An exercise was just hidden - remove it from the session
       const hiddenCardIndex = filteredExercises.findIndex(ex => ex.id === updatedExercise.id)
-      if (hiddenCardIndex !== -1 && hiddenCardIndex < currentIndex) {
-        // A card before the current one was hidden, so decrease currentIndex
+
+      // Update exercises state (filter out hidden)
+      const updatedExercises = updatedAllExercises.filter((ex) => !ex.hidden)
+      setExercises(updatedExercises)
+
+      // Apply current filters and remove hidden exercises
+      const updatedFiltered = updatedExercises.filter((ex) => {
+        const matchesBlock = selectedBlocks.length > 0 ? selectedBlocks.includes(ex.block) : true
+        const matchesLevel = selectedLevels.length > 0 ? selectedLevels.includes(ex.level) : true
+        return matchesBlock && matchesLevel
+      })
+      setFilteredExercises(updatedFiltered)
+
+      // Adjust viewedIndices - remove the hidden card's index and shift down indices after it
+      const newViewedIndices = new Set<number>()
+      viewedIndices.forEach((idx) => {
+        if (idx < hiddenCardIndex) {
+          // Indices before the hidden card stay the same
+          newViewedIndices.add(idx)
+        } else if (idx > hiddenCardIndex) {
+          // Indices after the hidden card shift down by 1
+          newViewedIndices.add(idx - 1)
+        }
+        // Skip the hidden card's index itself
+      })
+      setViewedIndices(newViewedIndices)
+
+      // Adjust currentIndex
+      if (hiddenCardIndex === currentIndex) {
+        // Hiding the current card - stay at same index (now shows next card)
+        if (currentIndex >= updatedFiltered.length) {
+          setCurrentIndex(Math.max(0, updatedFiltered.length - 1))
+        }
+      } else if (hiddenCardIndex < currentIndex) {
+        // A card before the current one was hidden, decrease currentIndex
         setCurrentIndex(currentIndex - 1)
       }
+    } else {
+      // Exercise was just edited (not hidden) - update in place
+      const updatedExercises = exercises.map((ex) =>
+        ex.id === updatedExercise.id ? updatedExercise : ex
+      )
+      setExercises(updatedExercises)
+
+      const updatedFiltered = filteredExercises.map((ex) =>
+        ex.id === updatedExercise.id ? updatedExercise : ex
+      )
+      setFilteredExercises(updatedFiltered)
     }
   }
 
