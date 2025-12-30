@@ -73,9 +73,13 @@ export default function FlashcardsPage() {
       return matchesBlock && matchesLevel
     })
     setFilteredExercises(filtered)
+  }, [selectedBlocks, selectedLevels, exercises])
+
+  // Separate effect to reset position only when filters change (not when exercises update)
+  useEffect(() => {
     setCurrentIndex(0)
     setViewedIndices(new Set([0]))
-  }, [selectedBlocks, selectedLevels, exercises])
+  }, [selectedBlocks, selectedLevels])
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
