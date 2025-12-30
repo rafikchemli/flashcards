@@ -34,6 +34,11 @@ export default function EditFlashcardDialog({
   const [availableLevels, setAvailableLevels] = useState<string[]>([])
 
   useEffect(() => {
+    // Update form data when exercise changes
+    setFormData(exercise)
+  }, [exercise])
+
+  useEffect(() => {
     // Get all unique blocks and levels from localStorage
     const exercises = getLocalExercises()
     const blocks = Array.from(new Set(exercises.map((ex) => ex.block))).sort()
