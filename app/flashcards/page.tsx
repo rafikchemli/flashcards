@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import type { Exercise } from "@/lib/types"
 import Flashcard from "@/components/flashcard"
-import LanguageToggle from "@/components/language-toggle"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { ChevronLeft, ChevronRight, Home, Settings, RefreshCw } from "lucide-react"
@@ -164,8 +163,6 @@ export default function FlashcardsPage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-4">
-      <LanguageToggle />
-
       <div className="w-full max-w-2xl mb-2 mt-12">
         <div className="flex justify-between items-center mb-2">
           <span className="text-sm font-medium">Progress: {Math.round(progress)}%</span>

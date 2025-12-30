@@ -44,7 +44,7 @@ export default function EditFlashcardDialog({
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid gap-2">
-            <Label htmlFor="title_en">Title (English)</Label>
+            <Label htmlFor="title_en">Title</Label>
             <Input
               id="title_en"
               value={formData.title_en}
@@ -52,29 +52,12 @@ export default function EditFlashcardDialog({
             />
           </div>
           <div className="grid gap-2">
-            <Label htmlFor="description_en">Description (English)</Label>
+            <Label htmlFor="description_en">Description</Label>
             <Textarea
               id="description_en"
               value={formData.description_en}
               onChange={(e) => setFormData({ ...formData, description_en: e.target.value })}
-              rows={4}
-            />
-          </div>
-          <div className="grid gap-2">
-            <Label htmlFor="title_fr">Title (French)</Label>
-            <Input
-              id="title_fr"
-              value={formData.title_fr}
-              onChange={(e) => setFormData({ ...formData, title_fr: e.target.value })}
-            />
-          </div>
-          <div className="grid gap-2">
-            <Label htmlFor="description_fr">Description (French)</Label>
-            <Textarea
-              id="description_fr"
-              value={formData.description_fr}
-              onChange={(e) => setFormData({ ...formData, description_fr: e.target.value })}
-              rows={4}
+              rows={6}
             />
           </div>
           <div className="grid grid-cols-2 gap-4">

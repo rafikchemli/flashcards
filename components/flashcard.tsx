@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import type { Exercise } from "@/lib/types"
-import { useLanguage } from "./language-provider"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Pencil } from "lucide-react"
@@ -16,10 +15,9 @@ interface FlashcardProps {
 export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
   const [showDescription, setShowDescription] = useState(false)
   const [showEditDialog, setShowEditDialog] = useState(false)
-  const { language } = useLanguage()
 
-  const title = language === "en" ? exercise.title_en : exercise.title_fr
-  const description = language === "en" ? exercise.description_en : exercise.description_fr
+  const title = exercise.title_en
+  const description = exercise.description_en
 
   const handleSave = (updatedExercise: Exercise) => {
     onUpdate?.(updatedExercise)
