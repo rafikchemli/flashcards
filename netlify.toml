@@ -1,0 +1,27 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "18.17.0"
+
+# Production context (main branch)
+[context.production]
+  command = "npm run build"
+
+# Branch deploy context (dev branch)
+[context.dev]
+  command = "npm run build"
+
+# Enable branch deploys
+[context.branch-deploy]
+  command = "npm run build"
+
+# Redirects for Next.js routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
