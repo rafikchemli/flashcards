@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { getLocalExercises } from "@/lib/utils"
 
 interface EditFlashcardDialogProps {
@@ -32,10 +33,19 @@ export default function EditFlashcardDialog({
   const [formData, setFormData] = useState<Exercise>(exercise)
   const [availableBlocks, setAvailableBlocks] = useState<string[]>([])
   const [availableLevels, setAvailableLevels] = useState<string[]>([])
+  const [showCustomBlock, setShowCustomBlock] = useState(false)
+  const [showCustomLevel, setShowCustomLevel] = useState(false)
+  const [customBlock, setCustomBlock] = useState("")
+  const [customLevel, setCustomLevel] = useState("")
 
   useEffect(() => {
     // Update form data when exercise changes
     setFormData(exercise)
+    // Reset custom inputs
+    setShowCustomBlock(false)
+    setShowCustomLevel(false)
+    setCustomBlock("")
+    setCustomLevel("")
   }, [exercise])
 
   useEffect(() => {
@@ -48,7 +58,13 @@ export default function EditFlashcardDialog({
   }, [open])
 
   const handleSave = () => {
-    onSave(formData)
+    // Use custom values if they were entered
+    const finalData = {
+      ...formData,
+      block: showCustomBlock ? customBlock : formData.block,
+      level: showCustomLevel ? customLevel : formData.level,
+    }
+    onSave(finalData)
     onOpenChange(false)
   }
 
@@ -80,33 +96,99 @@ export default function EditFlashcardDialog({
           <div className="grid grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="block">Block</Label>
-              <Input
-                id="block"
-                list="blocks-list"
-                value={formData.block}
-                onChange={(e) => setFormData({ ...formData, block: e.target.value })}
-                placeholder="Select or type new block"
-              />
-              <datalist id="blocks-list">
-                {availableBlocks.map((block) => (
-                  <option key={block} value={block} />
-                ))}
-              </datalist>
+              {!showCustomBlock ? (
+                <>
+                  <Select
+                    value={formData.block}
+                    onValueChange={(value) => {
+                      if (value === "_custom_") {
+                        setShowCustomBlock(true)
+                      } else {
+                        setFormData({ ...formData, block: value })
+                      }
+                    }}
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select block" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {availableBlocks.map((block) => (
+                        <SelectItem key={block} value={block}>
+                          {block}
+                        </SelectItem>
+                      ))}
+                      <SelectItem value="_custom_">+ Create new block</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </>
+              ) : (
+                <div className="flex gap-2">
+                  <Input
+                    value={customBlock}
+                    onChange={(e) => setCustomBlock(e.target.value)}
+                    placeholder="Enter new block name"
+                    autoFocus
+                  />
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowCustomBlock(false)
+                      setCustomBlock("")
+                    }}
+                    className="text-xs text-gray-500 hover:text-gray-700"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              )}
             </div>
             <div className="grid gap-2">
               <Label htmlFor="level">Level</Label>
-              <Input
-                id="level"
-                list="levels-list"
-                value={formData.level}
-                onChange={(e) => setFormData({ ...formData, level: e.target.value })}
-                placeholder="Select or type new level"
-              />
-              <datalist id="levels-list">
-                {availableLevels.map((level) => (
-                  <option key={level} value={level} />
-                ))}
-              </datalist>
+              {!showCustomLevel ? (
+                <>
+                  <Select
+                    value={formData.level}
+                    onValueChange={(value) => {
+                      if (value === "_custom_") {
+                        setShowCustomLevel(true)
+                      } else {
+                        setFormData({ ...formData, level: value })
+                      }
+                    }}
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select level" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {availableLevels.map((level) => (
+                        <SelectItem key={level} value={level}>
+                          {level}
+                        </SelectItem>
+                      ))}
+                      <SelectItem value="_custom_">+ Create new level</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </>
+              ) : (
+                <div className="flex gap-2">
+                  <Input
+                    value={customLevel}
+                    onChange={(e) => setCustomLevel(e.target.value)}
+                    placeholder="Enter new level name"
+                    autoFocus
+                  />
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowCustomLevel(false)
+                      setCustomLevel("")
+                    }}
+                    className="text-xs text-gray-500 hover:text-gray-700"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
