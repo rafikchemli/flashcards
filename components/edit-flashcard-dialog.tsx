@@ -103,6 +103,15 @@ export default function EditFlashcardDialog({
               placeholder="https://www.youtube.com/watch?v=..."
             />
           </div>
+          <div className="grid gap-2">
+            <Label htmlFor="video">Video URL (optional)</Label>
+            <Input
+              id="video"
+              value={formData.video || ""}
+              onChange={(e) => setFormData({ ...formData, video: e.target.value })}
+              placeholder="https://..."
+            />
+          </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="block">Block</Label>

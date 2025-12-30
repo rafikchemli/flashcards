@@ -263,6 +263,15 @@ export default function ManagePage() {
                   />
                 </div>
 
+                <div className="space-y-2">
+                  <h3 className="text-sm font-medium">Video URL (optional)</h3>
+                  <Input
+                    value={editedExercise.video || ""}
+                    onChange={(e) => handleInputChange("video", e.target.value)}
+                    placeholder="https://..."
+                  />
+                </div>
+
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <h3 className="text-sm font-medium">Block</h3>

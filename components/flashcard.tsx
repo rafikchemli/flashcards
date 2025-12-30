@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import type { Exercise } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -21,6 +21,14 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
   const title = exercise.title_en
   const description = exercise.description_en
   const videoId = exercise.youtube_url ? extractYouTubeId(exercise.youtube_url) : null
+  const hasDirectVideo = !!exercise.video
+  const hasAnyVideo = videoId || hasDirectVideo
+
+  // Reset video and description when exercise changes
+  useEffect(() => {
+    setShowVideo(false)
+    setShowDescription(false)
+  }, [exercise.id])
 
   const handleSave = (updatedExercise: Exercise) => {
     onUpdate?.(updatedExercise)
@@ -28,44 +36,60 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
 
   return (
     <>
-      <Card className="w-full max-w-2xl h-96 flex flex-col justify-between relative">
+      <Card className="w-full max-w-2xl min-h-96 max-h-[600px] flex flex-col relative">
         <Button
           variant="ghost"
           size="icon"
-          className="absolute top-2 right-2 h-8 w-8 opacity-50 hover:opacity-100"
+          className="absolute top-2 right-2 h-8 w-8 opacity-50 hover:opacity-100 z-10"
           onClick={() => setShowEditDialog(true)}
         >
           <Pencil className="h-4 w-4" />
         </Button>
 
-        <CardContent className="flex flex-col items-center justify-center h-full p-6">
+        <CardContent className={`flex flex-col items-center flex-1 p-6 overflow-y-auto ${showVideo || showDescription ? 'justify-start' : 'justify-center'}`}>
           <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
 
-          {showVideo && videoId ? (
-            <div className="w-full max-w-md aspect-video">
-              <iframe
-                width="100%"
-                height="100%"
-                src={`https://www.youtube.com/embed/${videoId}`}
-                title={title}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              />
-            </div>
-          ) : showDescription ? (
-            <p className="text-lg text-center">{description}</p>
-          ) : null}
+          <div className="w-full space-y-4 flex flex-col items-center">
+            {showVideo && videoId && (
+              <div className="w-full max-w-md aspect-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+                  title={title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="rounded-lg"
+                />
+              </div>
+            )}
+
+            {showVideo && !videoId && hasDirectVideo && (
+              <div className="w-full max-w-md aspect-video">
+                <video
+                  width="100%"
+                  height="100%"
+                  controls
+                  autoPlay
+                  className="rounded-lg"
+                >
+                  <source src={exercise.video} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
+
+            {showDescription && (
+              <p className="text-lg text-center max-w-md">{description}</p>
+            )}
+          </div>
         </CardContent>
 
         <div className="p-4 flex justify-center gap-2">
-          {videoId && (
+          {hasAnyVideo && (
             <Button
-              onClick={() => {
-                setShowVideo(!showVideo)
-                if (!showVideo) setShowDescription(false)
-              }}
+              onClick={() => setShowVideo(!showVideo)}
               variant="outline"
               className="flex-1 max-w-xs"
             >
@@ -74,10 +98,7 @@ export default function Flashcard({ exercise, onUpdate }: FlashcardProps) {
             </Button>
           )}
           <Button
-            onClick={() => {
-              setShowDescription(!showDescription)
-              if (!showDescription) setShowVideo(false)
-            }}
+            onClick={() => setShowDescription(!showDescription)}
             variant="outline"
             className="flex-1 max-w-xs"
           >
