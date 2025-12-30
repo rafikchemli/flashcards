@@ -137,16 +137,37 @@ export default function FlashcardsPage() {
     // Save to localStorage
     saveLocalExercises(updatedAllExercises)
 
-    // Update state - preserve current position and progress
-    const updatedExercises = exercises.map((ex) =>
-      ex.id === updatedExercise.id ? updatedExercise : ex
-    )
+    // Check if the exercise was hidden
+    const wasHidden = updatedExercise.hidden && !filteredExercises.find(ex => ex.id === updatedExercise.id)?.hidden
+
+    // Update exercises state (filter out hidden)
+    const updatedExercises = updatedAllExercises.filter((ex) => !ex.hidden)
     setExercises(updatedExercises)
 
-    const updatedFiltered = filteredExercises.map((ex) =>
-      ex.id === updatedExercise.id ? updatedExercise : ex
-    )
+    // Apply current filters and remove hidden exercises
+    const updatedFiltered = updatedExercises.filter((ex) => {
+      const matchesBlock = selectedBlocks.length > 0 ? selectedBlocks.includes(ex.block) : true
+      const matchesLevel = selectedLevels.length > 0 ? selectedLevels.includes(ex.level) : true
+      return matchesBlock && matchesLevel
+    })
     setFilteredExercises(updatedFiltered)
+
+    // If the current exercise was hidden, move to next card
+    if (wasHidden && filteredExercises[currentIndex]?.id === updatedExercise.id) {
+      // If there are more cards after this one, stay at same index (which is now the next card)
+      // If this was the last card, go to previous card
+      if (currentIndex >= updatedFiltered.length) {
+        setCurrentIndex(Math.max(0, updatedFiltered.length - 1))
+      }
+      // Current index stays the same, but now points to the next card
+    } else if (wasHidden) {
+      // If a different card was hidden, adjust currentIndex if needed
+      const hiddenCardIndex = filteredExercises.findIndex(ex => ex.id === updatedExercise.id)
+      if (hiddenCardIndex !== -1 && hiddenCardIndex < currentIndex) {
+        // A card before the current one was hidden, so decrease currentIndex
+        setCurrentIndex(currentIndex - 1)
+      }
+    }
   }
 
   if (isLoading) {
