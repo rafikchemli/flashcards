@@ -91,7 +91,16 @@ export default function EditFlashcardDialog({
               id="description_en"
               value={formData.description_en}
               onChange={(e) => setFormData({ ...formData, description_en: e.target.value })}
-              rows={6}
+              rows={4}
+            />
+          </div>
+          <div className="grid gap-2">
+            <Label htmlFor="youtube_url">YouTube URL (optional)</Label>
+            <Input
+              id="youtube_url"
+              value={formData.youtube_url || ""}
+              onChange={(e) => setFormData({ ...formData, youtube_url: e.target.value })}
+              placeholder="https://www.youtube.com/watch?v=..."
             />
           </div>
           <div className="grid grid-cols-2 gap-4">
